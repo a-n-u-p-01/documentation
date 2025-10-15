@@ -4,15 +4,15 @@ Completed - ✅
 Date format - DD-MM-YYYY
 ### 🧩 Setup & Basics
 
-| Topics                                 | Status  | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |     |
-| -------------------------------------- | ------- | ---------------- | ------------- | ------------------------------ | --- |
-| [[🟢Introduction to Java Programming]] | 👩🏻‍💻 | 5                | 15/10/20225   | ✅ High                         |     |
-| [[📜 History and Features of Java]]    | 👩🏻‍💻 | 5                |               | ⚙ Medium                       |     |
-| [[🧠 JVM Architecture and Bytecode]]   | 👩🏻‍💻 | 5                | 15/10/20225   | ✅ High                         |     |
-| JDK, JRE Setup                         | ✅       | 5                |               | ⚙ Medium                       |     |
-| IDE Setup                              | ✅       | 4                |               | ⚙ Medium                       |     |
-| Command Line Compilation & Execution   | ✅       | 4                | 15/10/20225   | 🔴 Low                         |     |
-| Java Modules (Module System - Java 9+) | ✅       | 4                | 15/10/20225   | ⚙ Medium                       |     |
+| Topics                                 | Status  | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
+| -------------------------------------- | ------- | ---------------- | ------------- | ------------------------------ |
+| [[🟢Introduction to Java Programming]] | 👩🏻‍💻 | 5                | 15/10/20225   | ✅ High                         |
+| [[📜 History and Features of Java]]    | 👩🏻‍💻 | 5                |               | ⚙ Medium                       |
+| [[🧠 JVM Architecture and Bytecode]]   | 👩🏻‍💻 | 5                | 15/10/20225   | ✅ High                         |
+| [[🎯 JDK and JRE Setup]]               | ✅       | 5                |               | ⚙ Medium                       |
+| IDE Setup                              | ✅       | 4                |               | ⚙ Medium                       |
+| Command Line Compilation & Execution   | ✅       | 4                | 15/10/20225   | 🔴 Low                         |
+| Java Modules (Module System - Java 9+) | ✅       | 4                | 15/10/20225   | ⚙ Medium                       |
 
 ---
 

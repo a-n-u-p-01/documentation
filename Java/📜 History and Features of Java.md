@@ -83,7 +83,3 @@
 
 ---
 
-## 🔗 Related Notes
-- [[🟢Introduction to Java Programming]]
-- [[🧠 JVM Architecture and Bytecode]]
-- [[Java 8 Features]]

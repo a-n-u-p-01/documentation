@@ -22,14 +22,14 @@
 
 ## 1. Understanding the Core Components
 
-| Component | Description | Details |
-|----------------|--------------|----------|
-| `Properties` | Configuration for connection | SMTP host, port, security settings |
-| `Authenticator` | Authentication provider | Supplies username/password for SMTP server |
-| `Session` | Context for mail operations | Combines properties and authenticator |
-| `MimeMessage` | Email message | Headers, content, recipients, attachments |
-| `InternetAddress` | Email address representation | Validates and formats email addresses |
-| `Transport` | Sending mechanism | Connects and sends message via SMTP |
+| Component         | Description                  | Details                                    |
+| ----------------- | ---------------------------- | ------------------------------------------ |
+| `Properties`      | Configuration for connection | SMTP host, port, security settings         |
+| `Authenticator`   | Authentication provider      | Supplies username/password for SMTP server |
+| `Session`         | Context for mail operations  | Combines properties and authenticator      |
+| `MimeMessage`     | Email message                | Headers, content, recipients, attachments  |
+| `InternetAddress` | Email address representation | Validates and formats email addresses      |
+| `Transport`       | Sending mechanism            | Connects and sends message via SMTP        |
 
 ---
 
@@ -164,7 +164,7 @@ message.setContent("<h1>Hello!</h1><p>This is an HTML email.</p>", "text/html");
 ## 7. Adding Attachments and Inline Resources
 
 ### **Attachments:**
-
+Multipurpose Internet Mail Extensions
 ```java
 MimeBodyPart messageBodyPart = new MimeBodyPart();
 messageBodyPart.setText("This is message body");
