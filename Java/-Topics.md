@@ -5,9 +5,9 @@ Completed - ✅ done
 
 | Topics                                 | Status | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |     |
 | -------------------------------------- | ------ | ---------------- | ------------- | ------------------------------ | --- |
-| Introduction to Java Programming       |        |                  |               | ✅ High                         |     |
-| History and Features of Java           |        |                  |               | ⚙ Medium                       |     |
-| JVM Architecture and Bytecode          |        |                  |               | ✅ High                         |     |
+| [[🟢Introduction to Java Programming]] |        |                  |               | ✅ High                         |     |
+| [[📜 History and Features of Java]]    |        |                  |               | ⚙ Medium                       |     |
+| [[🧠 JVM Architecture and Bytecode]]   |        |                  |               | ✅ High                         |     |
 | JDK, JRE Setup                         |        |                  |               | ⚙ Medium                       |     |
 | IDE Setup                              |        |                  |               | ⚙ Medium                       |     |
 | Command Line Compilation & Execution   |        |                  |               | 🔴 Low                         |     |
