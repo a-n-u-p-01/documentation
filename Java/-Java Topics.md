@@ -1,18 +1,15 @@
 ## 🟢 *Foundation & Beginner Level Topics (Core Java Only)*
-Ongoing Tasks - 👩🏻‍💻
-Completed - ✅ 
-Date format - DD-MM-YYYY
 ### 🧩 Setup & Basics
 
-| Topics                                 | Status  | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
-| -------------------------------------- | ------- | ---------------- | ------------- | ------------------------------ |
-| [[🟢Introduction to Java Programming]] | 👩🏻‍💻 |                  | 15/10/20225   | ✅ High                         |
-| [[📜 History and Features of Java]]    | 👩🏻‍💻 |                  |               | ⚙ Medium                       |
-| [[🧠 JVM Architecture and Bytecode]]   | 👩🏻‍💻 |                  | 15/10/20225   | ✅ High                         |
-| [[🎯 JDK and JRE Setup]]               | ✅       | 5                |               | ⚙ Medium                       |
-| IDE Setup                              | ✅       | 4                |               | ⚙ Medium                       |
-| Command Line Compilation & Execution   | ✅       | 4                | 15/10/20225   | 🔴 Low                         |
-| Java Modules (Module System - Java 9+) | ✅       | 4                | 15/10/20225   | ⚙ Medium                       |
+| Topics                                     | Status  | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
+| ------------------------------------------ | ------- | ---------------- | ------------- | ------------------------------ |
+| [[🟢Introduction to Java Programming]]     | 👩🏻‍💻 |                  | 15/10/20225   | ✅ High                         |
+| [[📜 History and Features of Java]]        | 👩🏻‍💻 |                  |               | ⚙ Medium                       |
+| [[🧠 JVM Architecture and Bytecode]]       | 👩🏻‍💻 |                  | 15/10/20225   | ✅ High                         |
+| [[🎯 JDK and JRE Setup]]                   | ✅       | 5                |               | ⚙ Medium                       |
+| IDE Setup                                  | ✅       | 4                |               | ⚙ Medium                       |
+| Command Line Compilation & Execution       | ✅       | 4                | 15/10/20225   | 🔴 Low                         |
+| [[📦 Java Modules (Module System - Java 9+)]] | ✅       | 4                | 15/10/20225   | ⚙ Medium                       |
 
 ---
 
@@ -22,13 +19,13 @@ Date format - DD-MM-YYYY
 | -------------------------------------- | ------ | ---------------- | ------------- | ------------------------------ |
 | Java Program Structure                 |        |                  |               | ✅ High                         |
 | Primitive Data Types                   |        |                  |               | ✅ High                         |
-| Type Casting and Conversion            |        |                  |               | ⚙ Medium                      |
+| Type Casting and Conversion            |        |                  |               | ⚙ Medium                       |
 | Operators and Control Structures       |        |                  |               | ✅ High                         |
 | Conditional Statements                 |        |                  |               | ✅ High                         |
 | Loops                                  |        |                  |               | ✅ High                         |
-| Enums                                  |        |                  |               | ⚙ Medium                      |
+| Enums                                  |        |                  |               | ⚙ Medium                       |
 | Varargs                                |        |                  |               | 🔴 Low                         |
-| Final, Static, Volatile Keywords       |        |                  |               | ⚙ Medium                      |
+| Final, Static, Volatile Keywords       |        |                  |               | ⚙ Medium                       |
 | Memory Management & Garbage Collection |        |                  |               | ✅ High                         |
 |                                        |        |                  |               |                                |
 
@@ -52,17 +49,17 @@ Date format - DD-MM-YYYY
 
 ### 🔧 Object-Oriented Programming (OOP)
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
-|---|---|---|---|---|
-|Classes and Objects||||✅ High|
-|Constructors & this Keyword||||✅ High|
-|Method Overloading||||✅ High|
-|Inheritance & super Keyword||||✅ High|
-|Method Overriding & Polymorphism||||✅ High|
-|Abstract Classes & Methods||||✅ High|
-|Interfaces & Implementation||||✅ High|
-|Encapsulation & Access Modifiers||||✅ High|
-|Object Class Methods (equals, hashCode, toString)||||✅ High|
+| Topics                                            | Status | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
+| ------------------------------------------------- | ------ | ---------------- | ------------- | ------------------------------ |
+| Classes and Objects                               |        |                  |               | ✅ High                         |
+| Constructors & this Keyword                       |        |                  |               | ✅ High                         |
+| Method Overloading                                |        |                  |               | ✅ High                         |
+| Inheritance & super Keyword                       |        |                  |               | ✅ High                         |
+| Method Overriding & Polymorphism                  |        |                  |               | ✅ High                         |
+| Abstract Classes & Methods                        |        |                  |               | ✅ High                         |
+| Interfaces & Implementation                       |        |                  |               | ✅ High                         |
+| Encapsulation & Access Modifiers                  |        |                  |               | ✅ High                         |
+| Object Class Methods (equals, hashCode, toString) |        |                  |               | ✅ High                         |
 
 ---
 ### ⚠ Exception Handling

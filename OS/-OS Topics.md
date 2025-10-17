@@ -1,4 +1,4 @@
-+### ⚙️ OS Basics & Architecture
+### ⚙️ OS Basics & Architecture
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -31,16 +31,16 @@
 
 ### 🔁 Interprocess Communication & Synchronization
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
-|---|---|---|---|---|
-|Interprocess Communication (IPC)||||✅ High|
-|Pipes, Shared Memory, Message Queues||||⚙ Medium|
-|Semaphores and Mutexes||||✅ High|
-|Monitors||||⚙ Medium|
-|Critical Section Problem||||✅ High|
-|Deadlocks: Detection, Prevention, Avoidance||||✅ High|
-|Race Conditions||||✅ High|
-|Producer-Consumer Problem||||⚙ Medium|
+| Topics                                      | Status | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
+| ------------------------------------------- | ------ | ---------------- | ------------- | ------------------------------ |
+| Interprocess Communication (IPC)            |        |                  |               | ✅ High                         |
+| Pipes, Shared Memory, Message Queues        |        |                  |               | ⚙ Medium                       |
+| Semaphores and Mutexes                      |        |                  |               | ✅ High                         |
+| Monitors                                    |        |                  |               | ⚙ Medium                       |
+| Critical Section Problem                    |        |                  |               | ✅ High                         |
+| Deadlocks: Detection, Prevention, Avoidance |        |                  |               | ✅ High                         |
+| Race Conditions                             |        |                  |               | ✅ High                         |
+| Producer-Consumer Problem                   |        |                  |               | ⚙ Medium                       |
 
 ---
 
