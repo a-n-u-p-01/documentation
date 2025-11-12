@@ -1,4 +1,4 @@
-## 🟣 _Advanced Java / Java EE Module_
+## _Advanced Java / Java EE Module_
 
 _(Before starting, review [[-Java Topics]] for Core Java foundation.)_
 [[-Spring Boot Topics]]

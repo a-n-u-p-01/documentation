@@ -1,7 +1,9 @@
 [[-Ad. Java Topics]]
-## 🟢 _Foundation & Beginner Level Topics (Core Java Only)_
+[Java](https://roadmap.sh/java)
 
-### 🧩 Setup & Basics
+## _Foundation & Beginner Level Topics (Core Java Only)_
+
+### Setup & Basics
 
 | Topics                                       | Status  | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
 | -------------------------------------------- | ------- | ---------------- | ------------- | ------------------------------ |
@@ -15,7 +17,7 @@
 
 ---
 
-### 📚 Basic Syntax & Data Types
+### Basic Syntax & Data Types
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -32,24 +34,24 @@
 
 ---
 
-### 🧱 Arrays & Collections Framework
+### Arrays & Collections Framework
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
-|---|---|---|---|---|
-|[[Arrays and Multidimensional Arrays]]||||✅ High|
-|[[Collection Framework Overview]]||||✅ High|
-|[[List Set and Map Interfaces]]||||✅ High|
-|[[ArrayList LinkedList HashSet TreeSet]]||||✅ High|
-|[[HashMap LinkedHashMap TreeMap]]||||✅ High|
-|[[Iterators and Enhanced For Loop]]||||✅ High|
-|[[Comparable and Comparator Interfaces]]||||⚙ Medium|
-|[[Collections Utility Class]]||||⚙ Medium|
-|[[Queue and Deque Interfaces]]||||⚙ Medium|
-|[[Immutable Collections in Java 9+]]||||⚙ Medium|
+| Topics                                   | Status | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
+| ---------------------------------------- | ------ | ---------------- | ------------- | ------------------------------ |
+| [[Arrays and Multidimensional Arrays]]   |        |                  |               | ✅ High                         |
+| [[Collection Framework Overview]]        |        |                  |               | ✅ High                         |
+| [[List Set and Map Interfaces]]          |        |                  |               | ✅ High                         |
+| [[ArrayList LinkedList HashSet TreeSet]] |        |                  |               | ✅ High                         |
+| [[HashMap LinkedHashMap TreeMap]]        |        |                  |               | ✅ High                         |
+| [[Iterators and Enhanced For Loop]]      |        |                  |               | ✅ High                         |
+| [[Comparable and Comparator Interfaces]] |        |                  |               | ⚙ Medium                       |
+| [[Collections Utility Class]]            |        |                  |               | ⚙ Medium                       |
+| [[Queue and Deque Interfaces]]           |        |                  |               | ⚙ Medium                       |
+| [[Immutable Collections in Java 9+]]     |        |                  |               | ⚙ Medium                       |
 
 ---
 
-### 🔧 Object-Oriented Programming (OOP)
+### Object-Oriented Programming (OOP)
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -65,7 +67,7 @@
 
 ---
 
-### ⚠ Exception Handling
+###  Exception Handling
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -77,7 +79,7 @@
 
 ---
 
-### 📂 I/O and String Handling 👩🏻‍💻
+### I/O and String Handling 
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -91,7 +93,7 @@
 
 ---
 
-### 🧵 Multithreading & Concurrency
+### Multithreading & Concurrency
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -107,9 +109,9 @@
 
 ---
 
-## 🟠 _Modern Java & Advanced Core Features_
+## _Modern Java & Advanced Core Features_
 
-### 🧠 Functional Programming (Java 8+)
+### Functional Programming (Java 8+)
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -122,7 +124,7 @@
 
 ---
 
-### 🛠 Reflection & Annotations
+### Reflection & Annotations
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -133,7 +135,7 @@
 
 ---
 
-### 🧰 Utility Classes & Features
+### Utility Classes & Features
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
 |---|---|---|---|---|
@@ -146,15 +148,15 @@
 
 ---
 
-### 🎨 Design Principles & Patterns (Core Level)
+### Design Principles & Patterns (Core Level)
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight (for Java Dev)|
-|---|---|---|---|---|
-|[[SOLID Design Principles]]||||✅ High|
-|[[Singleton Design Pattern]]||||✅ High|
-|[[Factory Method Design Pattern]]||||✅ High|
-|[[Builder Design Pattern]]||||⚙ Medium|
-|[[Strategy and Observer Patterns]]||||⚙ Medium|
-|[[Immutable Class Design in Java]]||||✅ High|
+| Topics                             | Status | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight (for Java Dev) |
+| ---------------------------------- | ------ | ---------------- | ------------- | ------------------------------ |
+| [[SOLID Design Principles]]        |        |                  |               | ✅ High                         |
+| [[Singleton Design Pattern]]       |        |                  |               | ✅ High                         |
+| [[Factory Method Design Pattern]]  |        |                  |               | ✅ High                         |
+| [[Builder Design Pattern]]         |        |                  |               | ⚙ Medium                       |
+| [[Strategy and Observer Patterns]] |        |                  |               | ⚙ Medium                       |
+| [[Immutable Class Design in Java]] |        |                  |               | ✅ High                         |
 
 ---
