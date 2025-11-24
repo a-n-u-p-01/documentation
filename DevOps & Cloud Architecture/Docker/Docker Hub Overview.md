@@ -10,7 +10,6 @@ With Docker Hub, you can:
     
 - Integrate with CI/CD pipelines for automated builds.
     
-
 ---
 
 ### **2. Key Features**

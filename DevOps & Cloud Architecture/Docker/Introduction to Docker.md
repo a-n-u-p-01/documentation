@@ -1,7 +1,12 @@
 ## **1. What Is Docker?**
 
-Docker is a **platform for developing, shipping, and running applications inside lightweight, portable containers**.  
-A _container_ packages an application with everything it needs—code, runtime, libraries, system tools—so it can run consistently across different environments.
+**Docker** is a **platform and tool** that allows developers to **build, ship, and run applications in isolated environments**. It is **not a virtual machine**; instead, it uses **OS-level virtualization** to run applications efficiently and portably.
+
+**Key Clarification:**
+
+- **Not a VM:** Docker does not emulate hardware or run a full operating system like a VM.
+    
+- **OS-level isolation:** It uses the host OS kernel features (namespaces, cgroups) to isolate applications.
 
 **Key idea:**
 
