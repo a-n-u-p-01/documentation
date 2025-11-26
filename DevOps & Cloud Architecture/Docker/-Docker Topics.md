@@ -18,14 +18,14 @@
 
 ### **Basic Concepts & Workflow**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Topic Weight|
-|---|---|---|---|---|
-|[[Docker Volumes: Bind Mounts vs Named Volumes]]||||⚙ Medium|
-|[[Docker Networking Basics]]||||⚙ Medium|
-|[[Docker Networking Modes]]||||⚙ Medium|
-|**[[Docker Compose Basics (Multi-Container Linking)]]**||||✅ High|
-|[[Docker Logs and Debugging]]||||⚙ Medium|
-|[[Healthchecks in Containers]]||||⚙ Medium|
+| Topics                                                  | Status | Confidence (*/5) | Last Reviewed | 🎯 Topic Weight |
+| ------------------------------------------------------- | ------ | ---------------- | ------------- | --------------- |
+| [[Docker Volumes: Bind Mounts vs Named Volumes]]        |        |                  |               | ⚙ Medium        |
+| [[Docker Networking Basics]]                            |        |                  |               | ⚙ Medium        |
+| [[Docker Networking Modes]]                             |        |                  |               | ⚙ Medium        |
+| **[[Docker Compose Basics (Multi-Container Linking)]]** |        |                  |               | ✅ High          |
+| [[Docker Logs and Debugging]]                           |        |                  |               | ⚙ Medium        |
+| [[Healthchecks in Containers]]                          |        |                  |               | ⚙ Medium        |
 
 ---
 

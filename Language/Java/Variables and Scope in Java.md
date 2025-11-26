@@ -75,7 +75,7 @@ class Counter {
 
 ---
 
-# 📌 **Comparison Table**
+### 📌 **Comparison Table**
 
 |Feature|Local Variable|Instance Variable|Static Variable|
 |---|---|---|---|
@@ -87,11 +87,11 @@ class Counter {
 
 ---
 
-# ✅ **2. Variable Scope in Java**
+### ✅ **2. Variable Scope in Java**
 
 Scope defines **where a variable can be accessed**.
 
-## **1️⃣ Block Scope**
+#### **1️⃣ Block Scope**
 
 Variables inside `{}` blocks are only accessible within that block.
 
@@ -104,7 +104,7 @@ if (true) {
 
 ---
 
-## **2️⃣ Method Scope**
+#### **2️⃣ Method Scope**
 
 Local variables are accessible only inside the method.
 
@@ -117,7 +117,7 @@ void test() {
 
 ---
 
-## **3️⃣ Class Scope**
+#### **3️⃣ Class Scope**
 
 Applies to **instance** and **static** variables — accessible throughout the class (depending on access modifiers).
 
@@ -130,7 +130,7 @@ class Demo {
 
 ---
 
-## **4️⃣ Loop & Enhanced Loop Scope**
+#### **4️⃣ Loop & Enhanced Loop Scope**
 
 The loop variable only lives within the loop.
 
@@ -143,7 +143,7 @@ for (int i = 0; i < 5; i++) {
 
 ---
 
-## **5️⃣ Scope of Variables in try-catch-finally**
+#### **5️⃣ Scope of Variables in try-catch-finally**
 
 Variables declared inside try/catch blocks exist only in that block.
 
@@ -158,7 +158,7 @@ try {
 
 ---
 
-# 🚫 **Shadowing**
+### 🚫 **Shadowing**
 
 When a local variable has the same name as an instance variable, the instance variable is **shadowed**.
 
