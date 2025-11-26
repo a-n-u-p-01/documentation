@@ -1,168 +1,150 @@
-## **1. Core Backend – Spring Boot / Java**
-
-- **Focus Areas:**
-    
-    - [[Spring Boot Basics]]: Controllers, Services, Repositories, DTOs
-        
-    - [[REST APIs]]: CRUD, exception handling, status codes
-        
-    - [[Spring Security]]: JWT, roles, permissions
-        
-    - [[JPA / Hibernate]]: Entity relationships, fetch types, transactions
-        
-    - [[Unit Testing]]: JUnit + Mockito
-        
-- **Action Plan:**
-    
-    - Build **1–2 full-stack mini-projects** with Spring Boot backend
-        
-    - Add **JWT-based authentication** and proper exception handling
-        
-    - Ensure **unit tests cover core business logic**
-        
+**Current Profile:** 12 months in ESSPL (8 months training + 4 months full-time), Spring Boot backend + React knowledge, salary 3.6 LPA  
+**Goal:** 7 LPA+
 
 ---
 
-## **2. Frontend – React.js**
+## **1. Core Backend Skills (Spring Boot / Java)**
 
-- **Focus Areas:**
+- Master Spring Boot advanced features: exception handling, DTOs, validation
     
-    - [[React.js Hooks]]: useState, useEffect
-        
-    - State management: Context API / Redux
-        
-    - API integration: Axios / Fetch
-        
-    - Component design & UI basics
-        
-- **Action Plan:**
+- Learn Spring Security: JWT auth, OAuth, role-based access
     
-    - Connect **React frontend with Spring Boot backend**
-        
-    - Implement **login/logout, CRUD dashboard, forms**
-        
-    - Make UI neat using **Material UI / Tailwind**
-        
+- Deep dive into JPA/Hibernate: relationships, lazy/eager loading, transactions
+    
+- Unit testing: JUnit + Mockito, aim for full test coverage
+    
+- Logging & error handling best practices
+    
+
+**Action:** Build **2–3 backend projects** with proper architecture and testing.
+
+---
+
+## **2. Frontend Skills (React.js)**
+
+- Hooks: `useState`, `useEffect`, `useReducer`
+    
+- State management: Context API / Redux
+    
+- Forms & validation (Formik / Yup)
+    
+- API integration with Axios & error handling
+    
+- UI: Material UI or Tailwind CSS
+    
+
+**Action:** Integrate frontend with your backend projects, build **responsive dashboards** with login/logout & CRUD features.
 
 ---
 
 ## **3. Data Structures & Algorithms (DSA)**
 
-- **Focus Areas:**
+- Arrays & Strings: sliding window, prefix sum, pattern matching
     
-    - [[Arrays & Strings]]: sliding window, prefix sum, subarrays
-        
-    - [[Linked Lists]]: reversal, detect cycle, merge lists
-        
-    - [[Stacks & Queues]]: next greater, expression evaluation
-        
-    - [[Hashing]]: two-sum, frequency counts, subarray sums
-        
-    - [[Trees & Graphs]]: BFS, DFS, LCA, topological sort
-        
-    - [[Sorting & Searching]]: insertion, selection, bubble, merge, quick, binary search
-        
-    - [[Recursion & Backtracking]]: N-Queens, permutations, maze problems
-        
-    - [[Dynamic Programming]]: Fibonacci, knapsack, LCS, grid DP
-        
-- **Action Plan:**
+- Linked Lists: reversal, cycle detection, merge
     
-    - Solve **1–2 problems daily** on LeetCode / GFG
-        
-    - Follow **easy → medium → hard progression**
-        
-    - Track progress in a **DSA notebook / spreadsheet**
-        
+- Stacks & Queues: expression evaluation, sliding window problems
+    
+- Trees & Graphs: BFS, DFS, LCA, topological sort, shortest path
+    
+- Sorting & Searching: bubble, selection, insertion, merge, quick, binary search
+    
+- Recursion & Backtracking: N-Queens, permutations, subsets
+    
+- Dynamic Programming: Fibonacci, knapsack, LCS, matrix DP
+    
+
+**Action:** Solve **2–3 problems daily** on LeetCode / GFG; maintain a DSA notebook.
 
 ---
 
 ## **4. System Design & Architecture**
 
-- **Focus Areas:**
+- REST API best practices, DTOs, error handling
     
-    - REST API best practices
-        
-    - Microservices basics, DTOs, controllers
-        
-    - Database design: one-to-many, many-to-many relationships
-        
-    - Caching & basic optimizations
-        
-    - Deployment concepts (Docker / AWS optional)
-        
-- **Action Plan:**
+- Database design: 1–N, N–N relationships
     
-    - Prepare **1–2 simple system designs**: e.g., task manager, URL shortener
-        
-    - Be ready to explain **project structure, API design, DB schema, trade-offs**
-        
+- Caching basics (Redis)
+    
+- Microservices architecture (optional)
+    
+
+**Action:** Design **2 small systems**: task manager, URL shortener; explain trade-offs, schema, and endpoints.
 
 ---
 
-## **5. Cloud / DevOps (Optional but Valuable)**
+## **5. Cloud & DevOps**
 
-- Docker: containerize Spring Boot app
+- Docker: containerize backend apps
     
-- Deploy on **AWS EC2 / S3** or Heroku
+- AWS / Heroku: deploy apps, work with S3 & RDS
     
-- CI/CD basics: GitHub Actions / Jenkins
+- CI/CD basics: GitHub Actions, Jenkins
     
+
+**Action:** Deploy **1–2 mini-projects**, document deployment steps on GitHub.
 
 ---
 
-## **6. Resume & Projects**
+## **6. Projects & Resume**
 
-- Highlight **Spring Boot + React projects**
+- Build **2–3 full-stack projects** showcasing backend + frontend integration
     
-- Emphasize **hands-on work during training**
+- Include measurable metrics: e.g., “Handled 1000 concurrent requests”
     
-- Include **DSA / coding platform achievements** if possible
+- Maintain **GitHub portfolio** with clean commits & readme
     
-- Use metrics: “Implemented task manager with JWT auth handling 1000 users”
+- Update resume to highlight: Spring Boot + React + DSA + Projects + Communication
     
 
 ---
 
-## **7. Interview Preparation**
+## **7. Communication Skills**
 
-- DSA problem-solving (easy → medium → hard)
+- Technical: Explain your projects & DSA solutions clearly using **Problem → Approach → Implementation → Outcome**
     
-- Spring Boot / React project discussion
+- Interview: Use STAR method for behavioral questions
     
-- Behavioral questions: STAR method
+- Daily: Explain concepts or solutions out loud; record yourself for self-review
     
-- Mock interviews after week 6 of prep
-    
-
----
-
-## **8. Suggested Timeline (3 Months)**
-
-- **Week 1–3:** Spring Boot backend + DB + JWT + mini-project
-    
-- **Week 4–5:** React frontend + integrate full-stack project
-    
-- **Week 6–10:** DSA practice (medium-level problems)
-    
-- **Week 11–12:** System design, deployment, resume prep, mock interviews
+- Peer interaction: Mock interviews, pair programming, coding discussions
     
 
 ---
 
-## **9. Key Tips**
+## **8. Daily Routine (3–4 Hours Focused Work)**
 
-- **Consistency > Intensity:** 2–3 hours daily focused work
+- **2–2.5 hrs DSA:** Medium → hard problems
     
-- **Projects + DSA** = main differentiator for 7 LPA+
+- **1–1.5 hrs Projects:** Backend + frontend development
     
-- Target **startups / mid-sized product companies** first
-    
-- Track **daily progress** and adjust weak areas
+- **0.5 hr:** System design / revision / communication practice
     
 
 ---
 
-If you want, I can also make a **day-by-day actionable checklist** in this single-page format, showing **exact DSA problems + project tasks + interview prep** for 12 weeks, so it’s fully plug-and-play.
+## **9. Timeline (3 Months)**
 
-Do you want me to make that?
+- **Weeks 1–3:** Backend mastery + mini-project 1
+    
+- **Weeks 4–5:** Frontend integration + full-stack project
+    
+- **Weeks 6–10:** DSA intensive (arrays → trees → DP)
+    
+- **Week 11:** System design, cloud basics, deployment
+    
+- **Week 12:** Resume, mock interviews, revision
+    
+
+---
+
+## **Key Notes**
+
+- **Consistency is key:** 2–3 focused hours daily beats occasional long sessions
+    
+- **Track progress:** DSA notebook + GitHub updates
+    
+- **Apply strategically:** Startups & product companies first
+    
+- **Combine technical mastery + communication:** Both are critical for 7 LPA+
+    
