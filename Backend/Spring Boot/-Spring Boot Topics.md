@@ -1,4 +1,4 @@
-## ☘️ **Spring Boot Fundamentals**
+## **Spring Boot Fundamentals**
 
 | Topics                                            | Status | Confidence (*/5) | Last Reviewed | 🎯 Weight |
 | ------------------------------------------------- | ------ | ---------------- | ------------- | --------- |
@@ -18,7 +18,7 @@
 
 ---
 
-## 🧬 **Dependency Injection & Core Concepts**
+## **Dependency Injection & Core Concepts**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -33,7 +33,7 @@
 
 ---
 
-## ⚙️ **Aspect-Oriented Programming (AOP)**
+## **Aspect-Oriented Programming (AOP)**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -46,27 +46,27 @@
 
 ---
 
-## 🌐 **Spring Boot Web (REST & MVC)**
+## **Spring Boot Web (REST & MVC)**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Spring Web Starter]]||||✅ High|
-|[[RESTful Web Services in Spring Boot]]||||✅ High|
-|[[Spring Controllers]]||||✅ High|
-|[[Request Mapping and Endpoints]]||||✅ High|
-|[[Request and Response Handling]]||||✅ High|
-|[[Spring Request Parameters and Path Variables]]||||✅ High|
-|[[Handling JSON Request Body]]||||✅ High|
-|[[Exception Handling in Spring Boot]]||||✅ High|
-|[[Form Validation in Spring Boot]]||||⚙ Medium|
-|[[Serving Static and Template Content]]||||⚙ Medium|
-|[[File Upload and Download in Spring Boot]]||||⚙ Medium|
-|[[Spring MVC Interceptors and Filters]]||||⚙ Medium|
-|[[Internationalization (i18n) in Spring Boot]]||||🔴 Low|
+| Topics                                           | Status | Confidence (*/5) | Last Reviewed | 🎯 Weight |
+| ------------------------------------------------ | ------ | ---------------- | ------------- | --------- |
+| [[Spring Web Starter]]                           |        |                  |               | ✅ High    |
+| [[RESTful Web Services in Spring Boot]]          |        |                  |               | ✅ High    |
+| [[Spring Controllers]]                           |        |                  |               | ✅ High    |
+| [[Request Mapping and Endpoints]]                |        |                  |               | ✅ High    |
+| [[Request and Response Handling]]                |        |                  |               | ✅ High    |
+| [[Spring Request Parameters and Path Variables]] |        |                  |               | ✅ High    |
+| [[Handling JSON Request Body]]                   |        |                  |               | ✅ High    |
+| [[Exception Handling in Spring Boot]]            |        |                  |               | ✅ High    |
+| [[Form Validation in Spring Boot]]               |        |                  |               | ⚙ Medium  |
+| [[Serving Static and Template Content]]          |        |                  |               | ⚙ Medium  |
+| [[File Upload and Download in Spring Boot]]      |        |                  |               | ⚙ Medium  |
+| [[Spring MVC Interceptors and Filters]]          |        |                  |               | ⚙ Medium  |
+| [[Internationalization (i18n) in Spring Boot]]   |        |                  |               | 🔴 Low    |
 
 ---
 
-## 🗃️ **Data Access & Persistence (Spring Data JPA)**
+##  **Data Access & Persistence (Spring Data JPA)**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -85,7 +85,7 @@
 
 ---
 
-## 🔐 **Spring Security**
+##  **Spring Security**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -104,7 +104,7 @@
 
 ---
 
-## ⚡ **Spring Boot Testing**
+##  **Spring Boot Testing**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -120,24 +120,24 @@
 
 ---
 
-## ☁️ **Spring Boot with Cloud & DevOps**
+##  **Spring Boot with Cloud & DevOps**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Dockerizing Spring Boot Applications]]||||✅ High|
-|[[Spring Boot in CI CD Pipelines]]||||✅ High|
-|[[Spring Boot Actuator for Monitoring]]||||✅ High|
-|[[Spring Boot Admin Integration]]||||⚙ Medium|
-|[[Spring Boot with Kubernetes]]||||⚙ Medium|
-|[[Spring Cloud Overview]]||||✅ High|
-|[[Spring Cloud Config Server]]||||✅ High|
-|[[Service Discovery with Eureka or Consul]]||||⚙ Medium|
-|[[Spring Cloud Gateway]]||||✅ High|
-|[[Centralized Configuration Management]]||||✅ High|
+| Topics                                      | Status | Confidence (*/5) | Last Reviewed | 🎯 Weight |
+| ------------------------------------------- | ------ | ---------------- | ------------- | --------- |
+| [[Dockerizing Spring Boot Applications]]    |        |                  |               | ✅ High    |
+| [[Spring Boot in CI CD Pipelines]]          |        |                  |               | ✅ High    |
+| [[Spring Boot Actuator for Monitoring]]     |        |                  |               | ✅ High    |
+| [[Spring Boot Admin Integration]]           |        |                  |               | ⚙ Medium  |
+| [[Spring Boot with Kubernetes]]             |        |                  |               | ⚙ Medium  |
+| [[Spring Cloud Overview]]                   |        |                  |               | ✅ High    |
+| [[Spring Cloud Config Server]]              |        |                  |               | ✅ High    |
+| [[Service Discovery with Eureka or Consul]] |        |                  |               | ⚙ Medium  |
+| [[Spring Cloud Gateway]]                    |        |                  |               | ✅ High    |
+| [[Centralized Configuration Management]]    |        |                  |               | ✅ High    |
 
 ---
 
-## ⚛️ **Reactive & Modern Patterns**
+##  **Reactive & Modern Patterns**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -149,7 +149,7 @@
 
 ---
 
-## 📦 **Spring Boot Extras**
+##  **Spring Boot Extras**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
@@ -165,7 +165,7 @@
 
 ---
 
-## 🧩 **Advanced Topics**
+##  **Advanced Topics**
 
 |Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
 |---|---|---|---|---|
