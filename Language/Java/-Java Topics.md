@@ -1,10 +1,10 @@
 #### **Setup & Basics**
 
-- [[Introduction to Java Programming]] ✅ High
+- [Introduction to Java Programming](Notes/Introduction%20to%20Java%20Programming.md) ✅ High
     
-- [[History and Features of Java]] ⚙ Medium
+- [History and Features of Java](Notes/History%20and%20Features%20of%20Java.md) ⚙ Medium
     
-- [[JVM Architecture and Bytecode]] ✅ High
+- [JVM Architecture and Bytecode](Notes/JVM%20Architecture%20and%20Bytecode.md) ✅ High
     
 - [[JDK JRE and JVM Differences]] ✅ High
     
@@ -14,7 +14,7 @@
     
 - [[Creating and Using Packages]] ⚙ Medium
     
-- [[JDK and JRE Setup]] ⚙ Medium
+- [JDK and JRE Setup](Notes/JDK%20and%20JRE%20Setup.md) ⚙ Medium
     
 - [[IDE Setup for Java Development]] ⚙ Medium
     
@@ -27,31 +27,31 @@
 
 #### **Basic Syntax & Data Types**
 
-- [[Java Program Structure]] ✅ High
+- [Java Program Structure](Notes/Java%20Program%20Structure.md) ✅ High
     
-- [[Identifiers Keywords and Literals]] ⚙ Medium
+- [Identifiers Keywords and Literals](Notes/Identifiers%20Keywords%20and%20Literals.md) ⚙ Medium
     
-- [[Primitive Data Types in Java]] ✅ High
+- [Primitive Data Types in Java](Notes/Primitive%20Data%20Types%20in%20Java.md) ✅ High
     
-- [[Variables and Scope in Java]] ⚙ Medium
+- [Variables and Scope in Java](Notes/Variables%20and%20Scope%20in%20Java.md) ⚙ Medium
     
-- [[Operators and Control Structures]] ✅ High
+- [Operators and Control Structures](Notes/Operators%20and%20Control%20Structures.md) ✅ High
     
-- [[Type Casting and Conversion]] ⚙ Medium
+- [Type Casting and Conversion](Notes/Type%20Casting%20and%20Conversion.md) ⚙ Medium
     
-- [[Conditional Statements in Java]] ✅ High
+- [Conditional Statements in Java](Notes/Conditional%20Statements%20in%20Java.md) ✅ High
     
-- [[Loops in Java]] ✅ High
+- [Loops in Java](Notes/Loops%20in%20Java.md) ✅ High
     
-- [[Enums in Java]] ⚙ Medium
+- [Enums in Java](Notes/Enums%20in%20Java.md) ⚙ Medium
     
-- [[Varargs in Java]] 🔴 Low
+- [Varargs in Java](Notes/Varargs%20in%20Java.md) 🔴 Low
     
-- [[Final Static and Volatile Keywords]] ⚙ Medium
+- [Final Static and Volatile Keywords](Notes/Final%20Static%20and%20Volatile%20Keywords.md) ⚙ Medium
     
-- [[Memory Management and Garbage Collection]] ✅ High
+- [Memory Management and Garbage Collection](Notes/Memory%20Management%20and%20Garbage%20Collection.md) ✅ High
     
-- [[String Constant Pool Concept]] ✅ High
+- [String Constant Pool Concept](Notes/String%20Constant%20Pool%20Concept.md) ✅ High
     
 
 #### **Arrays & Collections Framework**
