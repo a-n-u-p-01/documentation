@@ -1,4 +1,4 @@
-_(Before starting, review [[-Java Topics]] for Core Java foundation.)_
+_(Before starting, review [[../Java/-Java Topics]] for Core Java foundation.)_
 ### **1. Java EE / Jakarta EE Core APIs**
 
 - [[Servlets Request and Response Model]] ✅ High

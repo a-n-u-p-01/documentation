@@ -139,7 +139,7 @@ for(int i=0;i<3;i++){
     
 - NullPointerException when iterating over null collections.
     
-- Using `==` instead of `.equals()` for object comparison.
+- Using ` == ` instead of `.equals()` for object comparison.
     
 
 ---
@@ -177,9 +177,3 @@ for(int i=0;i<5;i++)
     
 - **Nested loops with labels:** Allow breaking/continuing outer loops cleanly.
     
-
----
-
-If you want, I can also make a **visual “Loops Cheat Sheet”** with flow diagrams for **while, do-while, for, enhanced for, break/continue**, which is **perfect for interviews**.
-
-Do you want me to create that?
