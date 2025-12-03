@@ -1,87 +1,49 @@
 #### **Setup & Basics**
 
-- [[Introduction to Java Programming]] ✅ High
-    
-- [[History and Features of Java]] ⚙ Medium
-    
-- [[JVM Architecture and Bytecode]] ✅ High
-    
-- [[JDK JRE and JVM Differences]] ✅ High
-    
+- [Introduction to Java Programming](Notes/Introduction%20to%20Java%20Programming.md) ✅ High
+- [History and Features of Java](Notes/History%20and%20Features%20of%20Java.md) ⚙ Medium
+- [JVM Architecture and Bytecode](Notes/JVM%20Architecture%20and%20Bytecode.md) ✅ High
+- [[Notes/JDK JRE and JVM Differences]] ✅ High
 - [[Java Platform (SE EE ME) Overview]] ⚙ Medium
-    
 - [[Java Packages and CLASSPATH]] ✅ High
-    
 - [[Creating and Using Packages]] ⚙ Medium
-    
-- [[JDK and JRE Setup]] ⚙ Medium
-    
+- [JDK and JRE Setup](Notes/JDK%20and%20JRE%20Setup.md) ⚙ Medium
 - [[IDE Setup for Java Development]] ⚙ Medium
-    
 - [[Command Line Compilation and Execution]] 🔴 Low
-    
 - [[Java Modules and Module System (Java 9+)]] ⚙ Medium
-    
-- [[Packaging JAR and WAR Files]] ⚙ Medium
-    
-
+- [Packaging JAR and WAR Files](Notes/Packaging%20JAR%20and%20WAR%20Files.md) ⚙ Medium
+- [Java Versions](Notes/Java%20Versions.md)
 #### **Basic Syntax & Data Types**
 
-- [[Java Program Structure]] ✅ High
-    
-- [[Identifiers Keywords and Literals]] ⚙ Medium
-    
-- [[Primitive Data Types in Java]] ✅ High
-    
-- [[Variables and Scope in Java]] ⚙ Medium
-    
-- [[Operators and Control Structures]] ✅ High
-    
-- [[Type Casting and Conversion]] ⚙ Medium
-    
-- [[Conditional Statements in Java]] ✅ High
-    
-- [[Loops in Java]] ✅ High
-    
-- [[Enums in Java]] ⚙ Medium
-    
-- [[Varargs in Java]] 🔴 Low
-    
-- [[Final Static and Volatile Keywords]] ⚙ Medium
-    
-- [[Memory Management and Garbage Collection]] ✅ High
-    
-- [[String Constant Pool Concept]] ✅ High
-    
+- [Java Program Structure](Notes/Java%20Program%20Structure.md) ✅ High
+- [Identifiers Keywords and Literals](Notes/Identifiers%20Keywords%20and%20Literals.md) ⚙ Medium
+- [Primitive Data Types in Java](Notes/Primitive%20Data%20Types%20in%20Java.md) ✅ High
+- [Variables and Scope in Java](Notes/Variables%20and%20Scope%20in%20Java.md) ⚙ Medium
+- [Operators and Control Structures](Notes/Operators%20and%20Control%20Structures.md) ✅ High
+- [Type Casting and Conversion](Notes/Type%20Casting%20and%20Conversion.md) ⚙ Medium
+- [Conditional Statements in Java](Notes/Conditional%20Statements%20in%20Java.md) ✅ High
+- [Loops in Java](Notes/Loops%20in%20Java.md) ✅ High
+- [Enums in Java](Notes/Enums%20in%20Java.md) ⚙ Medium
+- [Varargs in Java](Notes/Varargs%20in%20Java.md) 🔴 Low
+- [Final Static and Volatile Keywords](Notes/Final%20Static%20and%20Volatile%20Keywords.md) ⚙ Medium
+- [Memory Management and Garbage Collection](Notes/Memory%20Management%20and%20Garbage%20Collection.md) ✅ High
+- [String Constant Pool Concept](Notes/String%20Constant%20Pool%20Concept.md) ✅ High
 
 #### **Arrays & Collections Framework**
 
-- [[Arrays and Multidimensional Arrays]] ✅ High
-    
-- [[String Class and Methods]] ✅ High
-    
-- [[StringBuilder and StringBuffer]] ⚙ Medium
-    
-- [[Collection Framework Overview]] ✅ High
-    
-- [[List Set and Map Interfaces]] ✅ High
-    
-- [[ArrayList LinkedList HashSet TreeSet]] ✅ High
-    
-- [[HashMap LinkedHashMap TreeMap]] ✅ High
-    
-- [[Iterators and Enhanced For Loop]] ✅ High
-    
-- [[Comparable and Comparator Interfaces]] ⚙ Medium
-    
-- [[Collections Utility Class]] ⚙ Medium
-    
-- [[Queue and Deque Interfaces]] ⚙ Medium
-    
-- [[Immutable Collections in Java 9+]] ⚙ Medium
-    
-- [[Generics in Java (Wildcards Bounds)]] ✅ High
-    
+- [Arrays and Multidimensional Arrays](Notes/Arrays%20and%20Multidimensional%20Arrays.md) ✅ High
+- [String Class and Methods](Notes/String%20Class%20and%20Methods.md) ✅ High
+- [[Notes/StringBuilder and StringBuffer]] ⚙ Medium
+- [Collection Framework Overview](Notes/Collection%20Framework%20Overview.md) ✅ High
+- [List, Set and Map Interfaces](Notes/List,%20Set%20and%20Map%20Interfaces.md) ✅ High
+- [ArrayList, LinkedList, HashSet and TreeSet](Notes/ArrayList,%20LinkedList,%20HashSet%20and%20TreeSet.md) ✅ High
+- [HashMap, LinkedHashMap and TreeMap](Notes/HashMap,%20LinkedHashMap%20and%20TreeMap.md) ✅ High
+- [Iterators and Enhanced For Loop](Notes/Iterators%20and%20Enhanced%20For%20Loop.md) ✅ High
+- [Comparable and Comparator Interfaces](Notes/Comparable%20and%20Comparator%20Interfaces.md) ⚙ Medium
+- [Collections Utility Class](Notes/Collections%20Utility%20Class.md) ⚙ Medium
+- [Queue and Deque Interfaces](Notes/Queue%20and%20Deque%20Interfaces.md) ⚙ Medium
+- [Immutable Collections in Java 9+](Notes/Immutable%20Collections%20in%20Java%209+.md) ⚙ Medium
+- [Generics in Java (Wildcards Bounds)](Notes/Generics%20in%20Java%20(Wildcards%20Bounds).md) ✅ High
 
 #### **Object-Oriented Programming (OOP)**
 
