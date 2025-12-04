@@ -1,10 +1,10 @@
 ### **Basics**
 
-- [[Introduction to DSA]] ✅ High
+- [Introduction to DSA](Notes/Introduction%20to%20DSA.md) ✅ High
     
-- [[Time & Space Complexity Analysis]] ✅ High
+- [Time & Space Complexity Analysis](Notes/Time%20&%20Space%20Complexity%20Analysis.md) ✅ High
     
-- [[Big O, Big Θ, Big Ω Notation]] ✅ High
+- [Big O, Big Θ, Big Ω Notation](Notes/Big%20O,%20Big%20Θ,%20Big%20Ω%20Notation.md) ✅ High
     
 - [[Recursion Basics]] ✅ High
     
