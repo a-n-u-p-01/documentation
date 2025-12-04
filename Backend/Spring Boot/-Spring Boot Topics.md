@@ -1,178 +1,329 @@
 ## **Spring Boot Fundamentals**
 
-| Topics                                            | Status | Confidence (*/5) | Last Reviewed | 🎯 Weight |
-| ------------------------------------------------- | ------ | ---------------- | ------------- | --------- |
-| [[Introduction to Spring Boot]]                   |        |                  |               | ✅ High    |
-| [[Spring vs Spring Boot]]                         |        |                  |               | ✅ High    |
-| [[Spring Boot Starter Dependencies]]              |        |                  |               | ✅ High    |
-| [[Spring Boot Auto Configuration]]                |        |                  |               | ✅ High    |
-| [[Spring Boot Core Annotations]]                  |        |                  |               | ✅ High    |
-| [[Spring Boot DevTools]]                          |        |                  |               | ⚙ Medium  |
-| [[Spring Boot Actuator]]                          |        |                  |               | ⚙ Medium  |
-| [[Application Properties and YAML Configuration]] |        |                  |               | ✅ High    |
-| [[Spring Profiles and Environment Configuration]] |        |                  |               | ✅ High    |
-| [[Configuration Properties and Type-Safe Config]] |        |                  |               | ✅ High    |
-| [[Externalized Configuration in Spring Boot]]     |        |                  |               | ⚙ Medium  |
-| [[Spring Boot CLI]]                               |        |                  |               | 🔴 Low    |
-| [[Spring Boot Application Lifecycle]]             |        |                  |               | ⚙ Medium  |
+- [[Note/Introduction to Spring Boot]] ✅ High
+    
+- Spring vs Spring Boot ✅ High
+    
+- Spring Boot Starter Dependencies ✅ High
+    
+- Spring Boot Auto Configuration ✅ High
+    
+- [[Note/Spring Boot Core Annotations]] ✅ High
+    
+- Application Properties and YAML Configuration ✅ High
+    
+- Spring Profiles and Environment Configuration ✅ High
+    
+- Configuration Properties (Type-Safe Config) ✅ High
+    
+- Externalized Configuration ⚙ Medium
+    
+- Spring Boot DevTools ⚙ Medium
+    
+- Spring Boot Actuator ⚙ Medium
+    
+- Spring Boot CLI 🔴 Low
+    
+- Spring Boot Application Lifecycle ⚙ Medium
+    
+- ApplicationRunner vs CommandLineRunner ⚙ Medium
+    
+- **Fat JAR vs WAR deployment basics** ⚙ Medium
+    
+- **Layered JAR for Docker optimization** ⚙ Medium
+    
 
 ---
 
 ## **Dependency Injection & Core Concepts**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Dependency Injection in Spring]]||||✅ High|
-|[[Spring Stereotype Annotations]]||||✅ High|
-|[[Autowired Qualifier and Primary]]||||✅ High|
-|[[Spring Bean Scopes]]||||⚙ Medium|
-|[[Spring Bean Lifecycle]]||||⚙ Medium|
-|[[Java Based Bean Configuration]]||||✅ High|
-|[[Lazy Initialization in Spring]]||||⚙ Medium|
-|[[ApplicationContext vs BeanFactory]]||||⚙ Medium|
+- Dependency Injection (Constructor/Setter) ✅ High
+    
+- Spring Stereotype Annotations (@Component, @Service, @Repository) ✅ High
+    
+- Autowired, Qualifier, Primary ✅ High
+    
+- Java-Based Bean Configuration (@Bean) ✅ High
+    
+- Spring Bean Scopes ⚙ Medium
+    
+- Spring Bean Lifecycle ⚙ Medium
+    
+- Lazy Initialization ⚙ Medium
+    
+- ApplicationContext vs BeanFactory ⚙ Medium
+    
 
 ---
 
 ## **Aspect-Oriented Programming (AOP)**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[AOP Fundamentals in Spring]]||||✅ High|
-|[[Pointcuts and JoinPoints]]||||✅ High|
-|[[Spring AOP Advices]]||||✅ High|
-|[[Defining Aspects in Spring Boot]]||||✅ High|
-|[[Common AOP Use Cases]]||||⚙ Medium|
-|[[Spring Proxy Mechanism]]||||⚙ Medium|
+- AOP Fundamentals ✅ High
+    
+- Pointcuts and JoinPoints ✅ High
+    
+- Spring AOP Advices (Before, After, Around) ✅ High
+    
+- Defining Aspects (@Aspect) ✅ High
+    
+- Common AOP Use Cases ⚙ Medium
+    
+- Spring Proxy Mechanism ⚙ Medium
+    
 
 ---
 
 ## **Spring Boot Web (REST & MVC)**
 
-| Topics                                           | Status | Confidence (*/5) | Last Reviewed | 🎯 Weight |
-| ------------------------------------------------ | ------ | ---------------- | ------------- | --------- |
-| [[Spring Web Starter]]                           |        |                  |               | ✅ High    |
-| [[RESTful Web Services in Spring Boot]]          |        |                  |               | ✅ High    |
-| [[Spring Controllers]]                           |        |                  |               | ✅ High    |
-| [[Request Mapping and Endpoints]]                |        |                  |               | ✅ High    |
-| [[Request and Response Handling]]                |        |                  |               | ✅ High    |
-| [[Spring Request Parameters and Path Variables]] |        |                  |               | ✅ High    |
-| [[Handling JSON Request Body]]                   |        |                  |               | ✅ High    |
-| [[Exception Handling in Spring Boot]]            |        |                  |               | ✅ High    |
-| [[Form Validation in Spring Boot]]               |        |                  |               | ⚙ Medium  |
-| [[Serving Static and Template Content]]          |        |                  |               | ⚙ Medium  |
-| [[File Upload and Download in Spring Boot]]      |        |                  |               | ⚙ Medium  |
-| [[Spring MVC Interceptors and Filters]]          |        |                  |               | ⚙ Medium  |
-| [[Internationalization (i18n) in Spring Boot]]   |        |                  |               | 🔴 Low    |
+- Spring Web Starter Overview ✅ High
+    
+- RESTful Web Services (CRUD, layered design) ✅ High
+    
+- Spring Controllers (@RestController) ✅ High
+    
+- Request Mappings (@GetMapping, @PostMapping...) ✅ High
+    
+- Request & Response Handling (ResponseEntity) ✅ High
+    
+- Path Variables and Request Parameters ✅ High
+    
+- Handling JSON Request Body (@RequestBody) ✅ High
+    
+- HTTP Message Converters (Jackson, XML) ⚙ Medium
+    
+- Exception Handling (@ControllerAdvice) ✅ High
+    
+- Form Validation (@Valid, constraints) ⚙ Medium
+    
+- CORS Configuration ⚙ Medium
+    
+- File Upload/Download ⚙ Medium
+    
+- Serving Static & Template Content ⚙ Medium
+    
+- Spring MVC Interceptors and Filters ⚙ Medium
+    
+- Content Negotiation (JSON/XML/HTML) ⚙ Medium
+    
+- **API Versioning (URI, headers)** ✅ High
+    
+- **Rate limiting for controllers (Bucket4j basics)** ⚙ Medium
+    
+- **Request size/time limit handling** ⚙ Medium
+    
+- Internationalization (i18n) 🔴 Low
+    
 
 ---
 
-##  **Data Access & Persistence (Spring Data JPA)**
+## **Data Access & Persistence (Spring Data JPA)**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Spring Data JPA Overview]]||||✅ High|
-|[[Spring Boot with Hibernate and JPA]]||||✅ High|
-|[[Entity Mapping in JPA]]||||✅ High|
-|[[Entity Relationships in JPA]]||||✅ High|
-|[[JPA Repositories]]||||✅ High|
-|[[Derived Query Methods in JPA]]||||✅ High|
-|[[Custom Queries in JPA]]||||✅ High|
-|[[Pagination and Sorting in JPA]]||||⚙ Medium|
-|[[Transaction Management in Spring Boot]]||||✅ High|
-|[[DTO Projection in JPA]]||||⚙ Medium|
-|[[JPA Exception Handling]]||||⚙ Medium|
-|[[Database Initialization and Migration]]||||✅ High|
-
----
-
-##  **Spring Security**
-
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Spring Security Basics]]||||✅ High|
-|[[Authentication and Authorization]]||||✅ High|
-|[[Spring Security Filter Chain]]||||⚙ Medium|
-|[[In-Memory Authentication]]||||⚙ Medium|
-|[[Database Authentication]]||||✅ High|
-|[[UserDetailsService Implementation]]||||✅ High|
-|[[Role Based Access Control (RBAC)]]||||✅ High|
-|[[JWT Authentication in Spring Boot]]||||✅ High|
-|[[OAuth2 Implementation in Spring Boot]]||||✅ High|
-|[[CSRF and CORS Configuration]]||||✅ High|
-|[[Password Encoding in Spring Security]]||||✅ High|
-|[[Method Level Security]]||||⚙ Medium|
-
----
-
-##  **Spring Boot Testing**
-
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Testing with JUnit 5]]||||✅ High|
-|[[Mocking with Mockito]]||||✅ High|
-|[[Spring Boot Test Starter]]||||✅ High|
-|[[Testing Spring MVC Controllers]]||||✅ High|
-|[[Testing JPA Repositories]]||||✅ High|
-|[[MockMvc and JSON Assertions]]||||✅ High|
-|[[Integration Testing in Spring Boot]]||||✅ High|
-|[[Testcontainers with Spring Boot]]||||⚙ Medium|
-|[[WireMock for API Testing]]||||⚙ Medium|
+- Spring Data JPA Overview ✅ High
+    
+- Hibernate + JPA with Spring Boot ✅ High
+    
+- Entity Mapping (@Entity, @Table) ✅ High
+    
+- Entity Relationships (OneToMany, ManyToMany..) ✅ High
+    
+- Entity Lifecycle Callbacks (@PrePersist…) ⚙ Medium
+    
+- JPA Repositories (CrudRepository, JpaRepository) ✅ High
+    
+- Derived Query Methods (findBy...) ✅ High
+    
+- Custom Queries (JPQL, SQL) ✅ High
+    
+- Pagination & Sorting ⚙ Medium
+    
+- Transaction Management (@Transactional) ✅ High
+    
+- DTO Projection ⚙ Medium
+    
+- JPA Exception Handling ⚙ Medium
+    
+- Database Migration (Flyway/Liquibase) ✅ High
+    
+- Soft Delete (@SQLDelete) ⚙ Medium
+    
+- Enum Mapping (STRING vs ORDINAL) ⚙ Medium
+    
+- **Connection Pooling (HikariCP basics)** ✅ High
+    
+- **Indexing & query optimization basics** ⚙ Medium
+    
 
 ---
 
-##  **Spring Boot with Cloud & DevOps**
+## **Spring Security**
 
-| Topics                                      | Status | Confidence (*/5) | Last Reviewed | 🎯 Weight |
-| ------------------------------------------- | ------ | ---------------- | ------------- | --------- |
-| [[Dockerizing Spring Boot Applications]]    |        |                  |               | ✅ High    |
-| [[Spring Boot in CI CD Pipelines]]          |        |                  |               | ✅ High    |
-| [[Spring Boot Actuator for Monitoring]]     |        |                  |               | ✅ High    |
-| [[Spring Boot Admin Integration]]           |        |                  |               | ⚙ Medium  |
-| [[Spring Boot with Kubernetes]]             |        |                  |               | ⚙ Medium  |
-| [[Spring Cloud Overview]]                   |        |                  |               | ✅ High    |
-| [[Spring Cloud Config Server]]              |        |                  |               | ✅ High    |
-| [[Service Discovery with Eureka or Consul]] |        |                  |               | ⚙ Medium  |
-| [[Spring Cloud Gateway]]                    |        |                  |               | ✅ High    |
-| [[Centralized Configuration Management]]    |        |                  |               | ✅ High    |
-
----
-
-##  **Reactive & Modern Patterns**
-
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Reactive Programming in Spring]]||||⚙ Medium|
-|[[Spring WebFlux]]||||⚙ Medium|
-|[[Reactive Streams with Mono and Flux]]||||⚙ Medium|
-|[[Reactive Repositories]]||||🔴 Low|
-|[[Reactive Security]]||||🔴 Low|
-
----
-
-##  **Spring Boot Extras**
-
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Lombok Integration in Spring Boot]]||||✅ High|
-|[[MapStruct for DTO Mapping]]||||⚙ Medium|
-|[[Swagger and OpenAPI Documentation]]||||✅ High|
-|[[Logging in Spring Boot]]||||✅ High|
-|[[Caching with Spring Boot]]||||⚙ Medium|
-|[[Task Scheduling in Spring Boot]]||||⚙ Medium|
-|[[Asynchronous Processing in Spring Boot]]||||⚙ Medium|
-|[[Spring Application Events]]||||⚙ Medium|
-|[[File Storage and Upload Management]]||||🔴 Low|
+- Security Basics (Filters, Authentication, Authorization) ✅ High
+    
+- Authentication vs Authorization Concepts ✅ High
+    
+- Security Filter Chain ⚙ Medium
+    
+- In-Memory Authentication ⚙ Medium
+    
+- Database Authentication (JDBC/JPA) ✅ High
+    
+- UserDetailsService Implementation ✅ High
+    
+- Custom AuthenticationProvider ⚙ Medium
+    
+- Custom Security Filters ⚙ Medium
+    
+- JWT Authentication (Access/Refresh tokens) ✅ High
+    
+- OAuth2 Login & Social Login ⚙ Medium
+    
+- Password Encoding (BCryptPasswordEncoder) ✅ High
+    
+- CSRF and CORS Configuration ⚙ Medium
+    
+- Method Level Security (@PreAuthorize) ⚙ Medium
+    
+- Security Testing (@WithMockUser) ⚙ Medium
+    
+- **Session management (stateless vs stateful)** ⚙ Medium
+    
+- **Security hardening (HTTPS, HSTS, CSP, headers)** ✅ High
+    
+- **Audit logging & security events** ⚙ Medium
+    
+- **OAuth2 Resource Server (JWT validation, JWKS)** ⚙ Medium
+    
 
 ---
 
-##  **Advanced Topics**
+## **Spring Boot Testing**
 
-|Topics|Status|Confidence (*/5)|Last Reviewed|🎯 Weight|
-|---|---|---|---|---|
-|[[Spring Boot Performance Tuning]]||||⚙ Medium|
-|[[Creating Custom Spring Boot Starters]]||||🔴 Low|
-|[[Micrometer and Observability]]||||⚙ Medium|
-|[[Distributed Tracing with Zipkin and Sleuth]]||||⚙ Medium|
-|[[Application Monitoring and Metrics]]||||⚙ Medium|
+- JUnit 5 Testing Basics (assertions, lifecycle) ✅ High
+    
+- Mockito for Unit Testing (mocks, stubs) ✅ High
+    
+- Spring Boot Test Starter (@SpringBootTest) ✅ High
+    
+- MockMvc Testing (Controllers) ✅ High
+    
+- Testing JPA Repositories (@DataJpaTest) ✅ High
+    
+- JSON Assertions (jsonPath) ✅ High
+    
+- Integration Testing (RestTemplate/TestRestTemplate) ✅ High
+    
+- Slicing Tests (@WebMvcTest, @DataJpaTest) ⚙ Medium
+    
+- Testcontainers (DB test automation) ⚙ Medium
+    
+- WireMock for API Mocking ⚙ Medium
+    
+- **Spring Security testing** ⚙ Medium
+    
+
+---
+
+## **Spring Boot with Cloud & DevOps**
+
+- Dockerizing Spring Boot Applications (Dockerfile, layered JAR) ✅ High
+    
+- Jib Plugin (build images without Dockerfile) ⚙ Medium
+    
+- CI/CD Pipelines (GitHub Actions, Jenkins) ✅ High
+    
+- Actuator for Monitoring (Health, Metrics) ✅ High
+    
+- Spring Boot Admin ⚙ Medium
+    
+- Kubernetes Basics (Deployment, Service, ConfigMap, Secrets) ⚙ Medium
+    
+- **Readiness/Liveness Probes** ✅ High
+    
+- **Graceful Shutdown** ⚙ Medium
+    
+- Centralized Logging (ELK/EFK) ⚙ Medium
+    
+- Monitoring with Prometheus & Grafana ⚙ Medium
+    
+
+---
+
+## **Spring Cloud (Microservices)**
+
+- Spring Cloud Basics (Config, Discovery) ✅ High
+    
+- Spring Cloud Config Server (central config) ✅ High
+    
+- Service Discovery (Eureka/Consul) ⚙ Medium
+    
+- Spring Cloud Gateway (Routing/Filters) ✅ High
+    
+- Feign Client (declarative calls) ⚙ Medium
+    
+- Circuit Breaker (Resilience4j) ⚙ Medium
+    
+- Spring Cloud LoadBalancer ⚙ Medium
+    
+- API Rate Limiting (Gateway) ⚙ Medium
+    
+- Distributed Tracing (Micrometer Tracing) ⚙ Medium
+    
+- **Correlation IDs for distributed logs (MDC)** ✅ High
+    
+
+---
+
+## **Reactive Stack (WebFlux)**
+
+(_Only essential, no unnecessary deep-dive topics_)
+
+- Reactive Programming Basics ⚙ Medium
+    
+- Mono & Flux Fundamentals ⚙ Medium
+    
+- Spring WebFlux (Reactive REST) ⚙ Medium
+    
+- WebClient (Reactive HTTP client) ⚙ Medium
+    
+- Backpressure concepts ⚙ Medium
+    
+
+---
+
+## **Spring Boot Extras**
+
+- Lombok Integration (DTOs, entities) ✅ High
+    
+- MapStruct for DTO Mapping ⚙ Medium
+    
+- Swagger/OpenAPI (Springdoc) documentation ✅ High
+    
+- Logging (SLF4J + Logback) ✅ High
+    
+- Caching in Spring Boot (@Cacheable) ⚙ Medium
+    
+- Task Scheduling (@Scheduled) ⚙ Medium
+    
+- Asynchronous Processing (@Async) ⚙ Medium
+    
+- Application Events (event-driven architecture basics) ⚙ Medium
+    
+- Retry Mechanism (@Retryable with Spring Retry) ⚙ Medium
+    
+
+---
+
+## **Advanced Spring Boot**
+
+- Performance Tuning ⚙ Medium
+    
+- ThreadPool Configuration (Async, Scheduling, Web) ⚙ Medium
+    
+- Graceful Shutdown ⚙ Medium
+    
+- Micrometer & Observability ⚙ Medium
+    
+- Metrics & Health Checks ⚙ Medium
+    
 
 ---

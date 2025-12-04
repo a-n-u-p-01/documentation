@@ -1,9 +1,9 @@
-#### **Setup & Basics**
+## Setup & Basics
 
 - [Introduction to Java Programming](Notes/Introduction%20to%20Java%20Programming.md) ✅ High
 - [History and Features of Java](Notes/History%20and%20Features%20of%20Java.md) ⚙ Medium
 - [JVM Architecture and Bytecode](Notes/JVM%20Architecture%20and%20Bytecode.md) ✅ High
-- [[Notes/JDK JRE and JVM Differences]] ✅ High
+- [[JDK JRE and JVM Differences]] ✅ High
 - [[Java Platform (SE EE ME) Overview]] ⚙ Medium
 - [[Java Packages and CLASSPATH]] ✅ High
 - [[Creating and Using Packages]] ⚙ Medium
@@ -13,8 +13,8 @@
 - [[Java Modules and Module System (Java 9+)]] ⚙ Medium
 - [Packaging JAR and WAR Files](Notes/Packaging%20JAR%20and%20WAR%20Files.md) ⚙ Medium
 - [Java Versions](Notes/Java%20Versions.md)
-#### **Basic Syntax & Data Types**
 
+## Basic Syntax & Data Types
 - [Java Program Structure](Notes/Java%20Program%20Structure.md) ✅ High
 - [Identifiers Keywords and Literals](Notes/Identifiers%20Keywords%20and%20Literals.md) ⚙ Medium
 - [Primitive Data Types in Java](Notes/Primitive%20Data%20Types%20in%20Java.md) ✅ High
@@ -29,11 +29,10 @@
 - [Memory Management and Garbage Collection](Notes/Memory%20Management%20and%20Garbage%20Collection.md) ✅ High
 - [String Constant Pool Concept](Notes/String%20Constant%20Pool%20Concept.md) ✅ High
 
-#### **Arrays & Collections Framework**
-
+## Arrays & Collections Framework
 - [Arrays and Multidimensional Arrays](Notes/Arrays%20and%20Multidimensional%20Arrays.md) ✅ High
 - [String Class and Methods](Notes/String%20Class%20and%20Methods.md) ✅ High
-- [[Notes/StringBuilder and StringBuffer]] ⚙ Medium
+- [[StringBuilder and StringBuffer]] ⚙ Medium
 - [Collection Framework Overview](Notes/Collection%20Framework%20Overview.md) ✅ High
 - [List, Set and Map Interfaces](Notes/List,%20Set%20and%20Map%20Interfaces.md) ✅ High
 - [ArrayList, LinkedList, HashSet and TreeSet](Notes/ArrayList,%20LinkedList,%20HashSet%20and%20TreeSet.md) ✅ High
@@ -45,172 +44,96 @@
 - [Immutable Collections in Java 9+](Notes/Immutable%20Collections%20in%20Java%209+.md) ⚙ Medium
 - [Generics in Java (Wildcards Bounds)](Notes/Generics%20in%20Java%20(Wildcards%20Bounds).md) ✅ High
 
-#### **Object-Oriented Programming (OOP)**
-
-- [[Classes and Objects in Java]] ✅ High
-    
-- [[Constructors and this Keyword]] ✅ High
-    
-- [[Method Overloading in Java]] ✅ High
-    
-- [[Inheritance and super Keyword]] ✅ High
-    
+## Object-Oriented Programming (OOP)
+- [Classes and Objects in Java](Notes/Classes%20and%20Objects%20in%20Java.md) ✅ High
+- [Constructors and this Keyword](Notes/Constructors%20and%20this%20Keyword.md) ✅ High
+- [Method Overloading in Java](Notes/Method%20Overloading%20in%20Java.md) ✅ High
+- [Inheritance and super Keyword](Notes/Inheritance%20and%20super%20Keyword.md) ✅ High
 - [[Method Overriding and Polymorphism]] ✅ High
-    
-- [[Abstract Classes and Methods]] ✅ High
-    
-- [[Interfaces and Implementations]] ✅ High
-    
-- [[Encapsulation and Access Modifiers]] ✅ High
-    
-- [[Nested and Inner Classes]] ⚙ Medium
-    
-- [[Static and Final Classes]] ⚙ Medium
-    
-- [[Object Class Methods (equals hashCode toString)]] ✅ High
-    
+- [Abstract Classes and Methods](Notes/Abstract%20Classes%20and%20Methods.md) ✅ High
+- [Interfaces and Implementations](Notes/Interfaces%20and%20Implementations.md) ✅ High
+- [Encapsulation and Access Modifiers](Notes/Encapsulation%20and%20Access%20Modifiers.md) ✅ High
+- [Nested and Inner Classes](Notes/Nested%20and%20Inner%20Classes.md) ⚙ Medium
+- [Static and Final Classes](Notes/Static%20and%20Final%20Classes.md) ⚙ Medium
+- [Object Class Methods (equals hashCode toString)](Notes/Object%20Class%20Methods%20(equals%20hashCode%20toString).md) ✅ High
 
-#### **Exception Handling**
+## Exception Handling
+- [Introduction to Exception Handling](Notes/Introduction%20to%20Exception%20Handling.md) ✅ High
+- [Throwable Hierarchy (Throwable, Exception, Error)](Notes/Throwable%20Hierarchy%20(Throwable,%20Exception,%20Error).md) ✅ High
+- [Try, Catch, and Finally Blocks](Notes/Try,%20Catch,%20and%20Finally%20Blocks.md) ✅ High
+- [Checked vs Unchecked Exceptions](Notes/Checked%20vs%20Unchecked%20Exceptions.md) ✅ High
+- [Throw and Throws Keywords](Notes/Throw%20and%20Throws%20Keywords.md) ✅ High
+- [Custom Exceptions in Java](Notes/Custom%20Exceptions%20in%20Java.md) ⚙ Medium
+- [Try-with-Resources and AutoCloseable](Notes/Try-with-Resources%20and%20AutoCloseable.md) ✅ High
+- [Exception Propagation](Notes/Exception%20Propagation.md) ⚙ Medium
+- [[Common Exception Classes in Java]] ⚙ Medium
+- [[Best Practices in Exception Handling]] ⚙ Medium
+- [[Global Exception Handling / Uncaught Exception Handlers]] ✅ High
 
-- [[Try Catch Finally Blocks]] ✅ High
-    
-- [[Exception Hierarchy and Types]] ✅ High
-    
-- [[Checked vs Unchecked Exceptions]] ✅ High
-    
-- [[Throw and Throws Keywords]] ✅ High
-    
-- [[Custom Exceptions in Java]] ⚙ Medium
-    
-- [[Try with Resources and AutoCloseable]] ✅ High
-    
-
-#### **I/O and String Handling**
-
-- [[File Handling (File Path Files API)]] ✅ High
-    
+## I/O and String Handling
+- [File Handling (File Path Files API)](Notes/File%20Handling%20(File%20Path%20Files%20API).md) ✅ High
 - [[Java IO Streams]] ⚙ Medium
-    
 - [[Reader and Writer Classes]] ⚙ Medium
-    
 - [[Serialization and Deserialization]] ✅ High
-    
 - [[Externalizable Interface]] ⚙ Medium
-    
 - [[Mini Project File Handling Example]] ✅ High
-    
 - [[Java NIO and NIO.2 (Channels Buffers WatchService)]] ✅ High
-    
 
-#### **Multithreading & Concurrency**
-
+## Multithreading & Concurrency
 - [[Thread Class and Runnable Interface]] ✅ High
-    
 - [[Thread Lifecycle in Java]] ✅ High
-    
 - [[Synchronization and Locks]] ✅ High
-    
 - [[wait notify and notifyAll Methods]] ⚙ Medium
-    
 - [[ExecutorService and Thread Pools]] ✅ High
-    
 - [[Future and Callable Interfaces]] ⚙ Medium
-    
 - [[Concurrent Collections]] ⚙ Medium
-    
 - [[Atomic Variables in Java]] ⚙ Medium
-    
 - [[CompletableFuture in Java]] ⚙ Medium
-    
 - [[ThreadLocal in Java]] ⚙ Medium
-    
 - [[Virtual Threads (Project Loom)]] ⚙ Medium
-    
 
-#### **Functional Programming (Java 8+)**
-
+## Functional Programming (Java 8+)
 - [[Lambda Expressions in Java]] ✅ High
-    
 - [[Functional Interfaces in Java]] ✅ High
-    
 - [[Method References in Java]] ⚙ Medium
-    
 - [[Stream API in Java]] ✅ High
-    
 - [[Optional Class and Null Safety]] ⚙ Medium
-    
 - [[Date and Time API (java.time)]] ⚙ Medium
-    
 
-#### **Reflection & Annotations**
-
+## Reflection & Annotations
 - [[Reflection API in Java]] ✅ High
-    
 - [[Built in Annotations in Java]] ⚙ Medium
-    
 - [[Creating Custom Annotations]] ⚙ Medium
-    
 - [[Annotation Retention and Target Policies]] ⚙ Medium
-    
 - [[Annotation Processing Tool (APT)]] 🔴 Low
-    
 
-#### **Utility Classes & Features**
-
+## Utility Classes & Features
 - [[Wrapper Classes in Java]] ⚙ Medium
-    
 - [[Autoboxing and Unboxing in Java]] ⚙ Medium
-    
 - [[Math Random and Arrays Utility Classes]] ⚙ Medium
-    
 - [[Regex (Pattern and Matcher)]] ⚙ Medium
-    
 - [[Record Classes in Java 14+]] ⚙ Medium
-    
 - [[Sealed Classes in Java 15+]] ⚙ Medium
-    
 - [[Text Blocks in Java 13+]] 🔴 Low
-    
 
-#### **JDBC & Database Connectivity**
-
+## JDBC & Database Connectivity
 - [[JDBC Architecture and Drivers]] ✅ High
-    
 - [[Connecting to Database with JDBC]] ✅ High
-    
 - [[Statement PreparedStatement CallableStatement]] ✅ High
-    
 - [[ResultSet and ResultSetMetaData]] ✅ High
-    
 - [[Batch Processing and Transactions]] ⚙ Medium
-    
 - [[Connection Pooling (HikariCP C3P0)]] ✅ High
-    
 
-#### **Networking & Security**
-
+## Networking & Security
 - [[Java Networking (Sockets ServerSocket)]] ⚙ Medium
-    
 - [[URL and HttpURLConnection]] ⚙ Medium
-    
 - [[Java Security Basics]] ⚙ Medium
-    
 - [[Cryptography Classes (MessageDigest Cipher)]] 🔴 Low
-    
 
-#### **Design Principles & Patterns**
-
+## Design Principles & Patterns
 - [[SOLID Design Principles]] ✅ High
-    
 - [[Singleton Design Pattern]] ✅ High
-    
 - [[Factory Method Design Pattern]] ✅ High
-    
 - [[Builder Design Pattern]] ⚙ Medium
-    
 - [[Strategy and Observer Patterns]] ⚙ Medium
-    
 - [[Immutable Class Design in Java]] ✅ High
-    
-
----
