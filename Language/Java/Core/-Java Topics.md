@@ -49,7 +49,7 @@
 - [Constructors and this Keyword](Notes/Constructors%20and%20this%20Keyword.md) ✅ High
 - [Method Overloading in Java](Notes/Method%20Overloading%20in%20Java.md) ✅ High
 - [Inheritance and super Keyword](Notes/Inheritance%20and%20super%20Keyword.md) ✅ High
-- [[Method Overriding and Polymorphism]] ✅ High
+- [Method Overriding and Polymorphism](Notes/Method%20Overriding%20and%20Polymorphism.md) ✅ High
 - [Abstract Classes and Methods](Notes/Abstract%20Classes%20and%20Methods.md) ✅ High
 - [Interfaces and Implementations](Notes/Interfaces%20and%20Implementations.md) ✅ High
 - [Encapsulation and Access Modifiers](Notes/Encapsulation%20and%20Access%20Modifiers.md) ✅ High
@@ -66,18 +66,18 @@
 - [Custom Exceptions in Java](Notes/Custom%20Exceptions%20in%20Java.md) ⚙ Medium
 - [Try-with-Resources and AutoCloseable](Notes/Try-with-Resources%20and%20AutoCloseable.md) ✅ High
 - [Exception Propagation](Notes/Exception%20Propagation.md) ⚙ Medium
-- [[Common Exception Classes in Java]] ⚙ Medium
-- [[Best Practices in Exception Handling]] ⚙ Medium
-- [[Global Exception Handling / Uncaught Exception Handlers]] ✅ High
+- [Common Exception Classes in Java](Notes/Common%20Exception%20Classes%20in%20Java.md) ⚙ Medium
+- [Best Practices in Exception Handling](Notes/Best%20Practices%20in%20Exception%20Handling.md) ⚙ Medium
+- [Global Exception Handling or Uncaught Exception Handlers](Notes/Global%20Exception%20Handling%20or%20Uncaught%20Exception%20Handlers.md) ✅ High
 
 ## I/O and String Handling
 - [File Handling (File Path Files API)](Notes/File%20Handling%20(File%20Path%20Files%20API).md) ✅ High
-- [[Java IO Streams]] ⚙ Medium
-- [[Reader and Writer Classes]] ⚙ Medium
-- [[Serialization and Deserialization]] ✅ High
-- [[Externalizable Interface]] ⚙ Medium
+- [Java IO Streams](Notes/Java%20IO%20Streams.md) ⚙ Medium
+- [Reader and Writer Classes](Notes/Reader%20and%20Writer%20Classes.md) ⚙ Medium
+- [Serialization and Deserialization](Notes/Serialization%20and%20Deserialization.md) ✅ High
+- [Externalizable Interface](Notes/Externalizable%20Interface.md) ⚙ Medium
 - [[Mini Project File Handling Example]] ✅ High
-- [[Java NIO and NIO.2 (Channels Buffers WatchService)]] ✅ High
+- [Java NIO and NIO.2 (Channels Buffers WatchService)](Notes/Java%20NIO%20and%20NIO.2%20(Channels%20Buffers%20WatchService).md) ✅ High
 
 ## Multithreading & Concurrency
 - [[Thread Class and Runnable Interface]] ✅ High
