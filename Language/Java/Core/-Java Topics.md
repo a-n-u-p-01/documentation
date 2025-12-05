@@ -76,15 +76,15 @@
 - [Reader and Writer Classes](Notes/Reader%20and%20Writer%20Classes.md) ⚙ Medium
 - [Serialization and Deserialization](Notes/Serialization%20and%20Deserialization.md) ✅ High
 - [Externalizable Interface](Notes/Externalizable%20Interface.md) ⚙ Medium
-- [[Mini Project File Handling Example]] ✅ High
+- [Mini Project File Handling Example](Notes/Mini%20Project%20File%20Handling%20Example.md) ✅ High
 - [Java NIO and NIO.2 (Channels Buffers WatchService)](Notes/Java%20NIO%20and%20NIO.2%20(Channels%20Buffers%20WatchService).md) ✅ High
 
 ## Multithreading & Concurrency
-- [[Thread Class and Runnable Interface]] ✅ High
-- [[Thread Lifecycle in Java]] ✅ High
-- [[Synchronization and Locks]] ✅ High
-- [[wait notify and notifyAll Methods]] ⚙ Medium
-- [[ExecutorService and Thread Pools]] ✅ High
+- [Thread Class and Runnable Interface](Notes/Thread%20Class%20and%20Runnable%20Interface.md) ✅ High
+- [Thread Lifecycle in Java](Notes/Thread%20Lifecycle%20in%20Java.md) ✅ High
+- [Synchronization and Locks](Notes/Synchronization%20and%20Locks.md) ✅ High
+- [wait notify and notifyAll Methods](Notes/wait%20notify%20and%20notifyAll%20Methods.md) ⚙ Medium
+- [ExecutorService and Thread Pools](Notes/ExecutorService%20and%20Thread%20Pools.md) ✅ High
 - [[Future and Callable Interfaces]] ⚙ Medium
 - [[Concurrent Collections]] ⚙ Medium
 - [[Atomic Variables in Java]] ⚙ Medium
