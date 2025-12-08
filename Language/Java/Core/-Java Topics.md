@@ -85,15 +85,15 @@
 - [Synchronization and Locks](Notes/Synchronization%20and%20Locks.md) ✅ High
 - [wait notify and notifyAll Methods](Notes/wait%20notify%20and%20notifyAll%20Methods.md) ⚙ Medium
 - [ExecutorService and Thread Pools](Notes/ExecutorService%20and%20Thread%20Pools.md) ✅ High
-- [[Future and Callable Interfaces]] ⚙ Medium
-- [[Concurrent Collections]] ⚙ Medium
-- [[Atomic Variables in Java]] ⚙ Medium
-- [[CompletableFuture in Java]] ⚙ Medium
-- [[ThreadLocal in Java]] ⚙ Medium
-- [[Virtual Threads (Project Loom)]] ⚙ Medium
+- [Future and Callable Interfaces](Notes/Future%20and%20Callable%20Interfaces.md) ⚙ Medium
+- [Concurrent Collections](Notes/Concurrent%20Collections.md) ⚙ Medium
+- [Atomic Variables in Java](Notes/Atomic%20Variables%20in%20Java.md) ⚙ Medium
+- [CompletableFuture in Java](Notes/CompletableFuture%20in%20Java.md) ⚙ Medium
+- [ThreadLocal in Java](Notes/ThreadLocal%20in%20Java.md) ⚙ Medium
+- [Virtual Threads (Project Loom)](Notes/Virtual%20Threads%20(Project%20Loom).md) ⚙ Medium
 
 ## Functional Programming (Java 8+)
-- [[Lambda Expressions in Java]] ✅ High
+- [Lambda Expressions in Java](Notes/Lambda%20Expressions%20in%20Java.md) ✅ High
 - [[Functional Interfaces in Java]] ✅ High
 - [[Method References in Java]] ⚙ Medium
 - [[Stream API in Java]] ✅ High
