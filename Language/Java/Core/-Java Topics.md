@@ -94,11 +94,11 @@
 
 ## Functional Programming (Java 8+)
 - [Lambda Expressions in Java](Notes/Lambda%20Expressions%20in%20Java.md) ✅ High
-- [[Functional Interfaces in Java]] ✅ High
-- [[Method References in Java]] ⚙ Medium
-- [[Stream API in Java]] ✅ High
-- [[Optional Class and Null Safety]] ⚙ Medium
-- [[Date and Time API (java.time)]] ⚙ Medium
+- [Functional Interfaces in Java](Notes/Functional%20Interfaces%20in%20Java.md) ✅ High
+- [Method References in Java](Notes/Method%20References%20in%20Java.md) ⚙ Medium
+- [Stream API in Java](Notes/Stream%20API%20in%20Java.md) ✅ High
+- [Optional Class and Null Safety](Notes/Optional%20Class%20and%20Null%20Safety.md) ⚙ Medium
+- [Date and Time API (java.time)](Notes/Date%20and%20Time%20API%20(java.time).md) ⚙ Medium
 
 ## Reflection & Annotations
 - [[Reflection API in Java]] ✅ High
@@ -131,7 +131,7 @@
 - [[Cryptography Classes (MessageDigest Cipher)]] 🔴 Low
 
 ## Design Principles & Patterns
-- [[SOLID Design Principles]] ✅ High
+- [SOLID Design Principles](Notes/SOLID%20Design%20Principles.md) ✅ High
 - [[Singleton Design Pattern]] ✅ High
 - [[Factory Method Design Pattern]] ✅ High
 - [[Builder Design Pattern]] ⚙ Medium
