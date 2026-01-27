@@ -101,7 +101,7 @@
 - [Date and Time API (java.time)](Notes/Date%20and%20Time%20API%20(java.time).md) ⚙ Medium
 
 ## Reflection & Annotations
-- [[Reflection API in Java]] ✅ High
+- [Reflection API in Java](Notes/Reflection%20API%20in%20Java.md) ✅ High
 - [[Built in Annotations in Java]] ⚙ Medium
 - [[Creating Custom Annotations]] ⚙ Medium
 - [[Annotation Retention and Target Policies]] ⚙ Medium
@@ -132,8 +132,8 @@
 
 ## Design Principles & Patterns
 - [SOLID Design Principles](Notes/SOLID%20Design%20Principles.md) ✅ High
-- [[Singleton Design Pattern]] ✅ High
-- [[Factory Method Design Pattern]] ✅ High
-- [[Builder Design Pattern]] ⚙ Medium
-- [[Strategy and Observer Patterns]] ⚙ Medium
-- [[Immutable Class Design in Java]] ✅ High
+- [Singleton Design Pattern](Notes/Singleton%20Design%20Pattern.md) ✅ High
+- [Factory Method Design Pattern](Notes/Factory%20Method%20Design%20Pattern.md) ✅ High
+- [Builder Design Pattern](Notes/Builder%20Design%20Pattern.md) ⚙ Medium
+- [Strategy and Observer Patterns](Notes/Strategy%20and%20Observer%20Patterns.md) ⚙ Medium
+- [Immutable Class Design in Java](Notes/Immutable%20Class%20Design%20in%20Java.md) ✅ High

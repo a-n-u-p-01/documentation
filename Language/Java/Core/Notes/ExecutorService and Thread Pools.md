@@ -287,7 +287,3 @@ An executor that supports:
 Your program **may never terminate** because threads continue running in the background.
 
 ---
-
-If you want the next topic (**Future and Callable Interfaces**), just say:
-
-**next note**

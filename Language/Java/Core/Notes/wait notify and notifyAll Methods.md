@@ -134,7 +134,7 @@ class Shared {
 ```
 
 ### Producer
-
+Thread 1
 ```java
 synchronized(shared) {
     while(shared.hasValue) {
@@ -148,7 +148,7 @@ synchronized(shared) {
 ```
 
 ### Consumer
-
+Thread 2
 ```java
 synchronized(shared) {
     while(!shared.hasValue) {

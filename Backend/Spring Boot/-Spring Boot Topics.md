@@ -6,7 +6,7 @@
     
 - Spring Boot Starter Dependencies ✅ High
     
-- Spring Boot Auto Configuration ✅ High
+- [[Note/Spring Boot Auto Configuration]] ✅ High
     
 - [[Note/Spring Boot Core Annotations]] ✅ High
     

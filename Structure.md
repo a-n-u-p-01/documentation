@@ -5,8 +5,8 @@
 │   └── ML & DL Basics
 │
 ├── Backend
-│   ├── Microservices
-│   ├── Spring Boot
+│   ├── Microservices ✅
+│   ├── Spring Boot ✅
 │   └── API Technologies
 │       ├── REST
 │       ├── GraphQL
@@ -14,15 +14,15 @@
 │
 ├── Databases
 │   ├── MongoDB
-│   ├── Postgres
+│   ├── Postgres ✅
 │   └── Redis
 │
 ├── DevOps & Cloud Architecture
-│   ├── AWS
+│   ├── AWS ✅
 │   ├── CI-CD
-│   ├── Docker
+│   ├── Docker ✅
 │   ├── Kubernetes
-│   ├── Nginx
+│   ├── Nginx ✅
 │   ├── Terraform
 │   ├── Monitoring & Logging
 │   │   ├── Prometheus
@@ -32,20 +32,14 @@
 │       ├── Kafka
 │       └── RabbitMQ
 │
-├── Frontend
-│   ├── ReactJS
-│   └── State Management
-│       ├── Redux
-│       └── Zustand
-│
 ├── Fundamentals
-│   ├── DB
-│   ├── DSA
-│   ├── Git
-│   ├── Linux
+│   ├── DB ✅
+│   ├── DSA ✅
+│   ├── Git ✅
+│   ├── Linux ✅
 │   ├── Networking
 │   ├── OS
-│   ├── Security
+│   ├── Security ✅
 │   ├── System Design
 │   └── Testing
 │       ├── Unit Testing
@@ -53,9 +47,8 @@
 │       └── E2E Testing
 │
 ├── Language
-│   ├── Ad. Java
-│   ├── Java
-│   │   └── Notes
+│   ├── Ad. Java ✅
+│   ├── Java ✅
 │   └── JavaScript
 │
 ├── Architecture
@@ -63,4 +56,7 @@
 │   ├── Event-Driven Systems
 │   └── Distributed Systems
 │
-└── Projects
+└── Projects# Learning Roadmap (High-Level Diagram)
+
+
+
