@@ -1,297 +1,219 @@
-## **Phase 1: Arrays & Hashing / Two Pointers / Sliding Window**
+# 🟢 PHASE 1 — Arrays / Hashing / Two Pointers / Sliding Window
 
-1. #1 — Two Sum
+⭐ **MOST IMPORTANT SECTION — Do this very seriously**
+
+### Core Arrays & Hashing
+
+1. Two Sum (#1) ⭐⭐⭐
     
-2. #217 — Contains Duplicate
+2. Contains Duplicate (#217)
     
-3. #238 — Product of Array Except Self
+3. Single Number (#136) ⭐⭐⭐
     
-4. #49 — Group Anagrams
+4. Majority Element (#169) ⭐⭐⭐
     
-5. #125 — Valid Palindrome
+5. Product of Array Except Self (#238) ⭐⭐⭐
     
-6. #167 — Two Sum II
+6. Longest Consecutive Sequence (#128) ⭐⭐⭐
     
-7. #11 — Container With Most Water
+7. Group Anagrams (#49)
     
-8. #3 — Longest Substring Without Repeating Characters
-    
-9. #209 — Minimum Size Subarray Sum
-    
-10. #424 — Longest Repeating Character Replacement
-    
-11. #438 — Find All Anagrams in a String
-    
-12. #567 — Permutation in String
-    
-13. #643 — Maximum Average Subarray
-    
-14. #15 — 3Sum
-    
-15. #18 — 4Sum
-    
-16. #42 — Trapping Rain Water
-    
-17. #380 — Insert Delete GetRandom O(1)
-    
-18. #844 — Backspace String Compare
+8. Best Time to Buy and Sell Stock (#121) ⭐⭐⭐
     
 
----
+### Two Pointers
 
-## **Phase 2: Linked Lists / Stack / Queue**
+9. Valid Palindrome (#125)
+    
+10. Two Sum II (#167)
+    
+11. Container With Most Water (#11) ⭐⭐⭐
+    
+12. 3Sum (#15) ⭐⭐⭐
+    
 
-19. #206 — Reverse Linked List
+### Sliding Window (SUPER HIGH YIELD)
+
+13. Longest Substring Without Repeating Characters (#3) ⭐⭐⭐
     
-20. #21 — Merge Two Sorted Lists
+14. Minimum Size Subarray Sum (#209)
     
-21. #19 — Remove Nth Node From End of List
+15. Longest Repeating Character Replacement (#424) ⭐⭐⭐
     
-22. #141 — Linked List Cycle
+16. Permutation in String (#567)
     
-23. #142 — Linked List Cycle II
-    
-24. #876 — Middle of the Linked List
-    
-25. #143 — Reorder List
-    
-26. #148 — Sort List
-    
-27. #25 — Reverse Nodes in k-Group
-    
-28. #20 — Valid Parentheses
-    
-29. #155 — Min Stack
-    
-30. #22 — Generate Parentheses
-    
-31. #739 — Daily Temperatures
-    
-32. #853 — Car Fleet
-    
-33. #84 — Largest Rectangle in Histogram
-    
-34. #85 — Maximal Rectangle
-    
+
+👉 If you master this phase → many interviews end right here.
 
 ---
 
-## **Phase 3: Binary Search / Interval Problems**
+# 🟢 PHASE 2 — Linked List + Stack
 
-35. #704 — Binary Search
+⭐ Interview classics.
+
+### Linked List
+
+17. Reverse Linked List (#206) ⭐⭐⭐⭐⭐
     
-36. #33 — Search in Rotated Sorted Array
+18. Merge Two Sorted Lists (#21)
     
-37. #81 — Search in Rotated Sorted Array II
+19. Remove Nth Node From End (#19)
     
-38. #153 — Find Minimum in Rotated Sorted Array
+20. Linked List Cycle (#141)
     
-39. #154 — Find Minimum in Rotated Sorted Array II
+21. Reorder List (#143) ⭐⭐⭐
     
-40. #34 — Find First and Last Position in Sorted Array
+
+### Stack
+
+22. Valid Parentheses (#20) ⭐⭐⭐⭐⭐
     
-41. #74 — Search a 2D Matrix
+23. Min Stack (#155) ⭐⭐⭐
     
-42. #240 — Search a 2D Matrix II
+24. Daily Temperatures (#739)
     
-43. #875 — Koko Eating Bananas
-    
-44. #56 — Merge Intervals
-    
-45. #57 — Insert Interval
-    
-46. #435 — Non-overlapping Intervals
-    
-47. #253 — Meeting Rooms II
-    
-48. #252 — Meeting Rooms
-    
-49. #759 — Employee Free Time
-    
+
+👉 Interviewers LOVE Reverse Linked List.
 
 ---
 
-## **Phase 4: Trees (DFS/BFS)**
+# 🟢 PHASE 3 — Binary Search + Intervals
 
-50. #104 — Maximum Depth of Binary Tree
+⭐ Extremely high frequency.
+
+### Binary Search
+
+25. Binary Search (#704)
     
-51. #100 — Same Tree
+26. Search in Rotated Sorted Array (#33) ⭐⭐⭐
     
-52. #101 — Symmetric Tree
+27. Find Minimum in Rotated Sorted Array (#153)
     
-53. #102 — Level Order Traversal
+28. Find First and Last Position (#34)
     
-54. #226 — Invert Binary Tree
-    
-55. #110 — Balanced Binary Tree
-    
-56. #98 — Validate BST
-    
-57. #230 — Kth Smallest Element in BST
-    
-58. #105 — Construct Binary Tree from Preorder & Inorder
-    
-59. #543 — Diameter of Binary Tree
-    
-60. #297 — Serialize and Deserialize Binary Tree
-    
-61. #124 — Binary Tree Maximum Path Sum
+29. Koko Eating Bananas (#875) ⭐⭐⭐⭐ _(Binary search on answer)_
     
 
----
+### Intervals
 
-## **Phase 5: Backtracking / Recursion**
+30. Merge Intervals (#56) ⭐⭐⭐⭐⭐
+    
+31. Insert Interval (#57)
+    
+32. Non-overlapping Intervals (#435)
+    
+33. Meeting Rooms (#252)
+    
 
-62. #17 — Letter Combinations of a Phone Number
-    
-63. #39 — Combination Sum
-    
-64. #40 — Combination Sum II
-    
-65. #46 — Permutations
-    
-66. #47 — Permutations II
-    
-67. #78 — Subsets
-    
-68. #90 — Subsets II
-    
-69. #131 — Palindrome Partitioning
-    
-70. #79 — Word Search
-    
+👉 Merge Intervals is asked everywhere.
 
 ---
 
-## **Phase 6: Graphs**
+# 🟢 PHASE 4 — Trees (DO NOT SKIP)
 
-71. #200 — Number of Islands
+⭐ Candidates panic here — you won’t.
+
+34. Maximum Depth (#104) ⭐⭐⭐
     
-72. #133 — Clone Graph
+35. Same Tree (#100)
     
-73. #207 — Course Schedule
+36. Level Order Traversal (#102) ⭐⭐⭐⭐⭐
     
-74. #417 — Pacific Atlantic Water Flow
+37. Invert Binary Tree (#226) ⭐⭐⭐
     
-75. #323 — Number of Connected Components
+38. Balanced Binary Tree (#110)
     
-76. #261 — Graph Valid Tree
+39. Validate BST (#98) ⭐⭐⭐⭐⭐
     
-77. #130 — Surrounded Regions
+40. Kth Smallest in BST (#230)
     
-78. #547 — Friend Circles
-    
-79. #127 — Word Ladder
-    
-80. #269 — Alien Dictionary
-    
-81. #399 — Evaluate Division
-    
+
+👉 Trees signal **strong engineering ability**.
 
 ---
 
-## **Phase 7: Dynamic Programming (DP)**
+# 🟢 PHASE 5 — Backtracking
 
-82. #70 — Climbing Stairs
+⭐ Interviewers use this to test clarity of thinking.
+
+41. Letter Combinations (#17)
     
-83. #198 — House Robber
+42. Combination Sum (#39) ⭐⭐⭐⭐
     
-84. #213 — House Robber II
+43. Permutations (#46) ⭐⭐⭐
     
-85. #53 — Maximum Subarray
+44. Subsets (#78) ⭐⭐⭐⭐⭐
     
-86. #152 — Maximum Product Subarray
+45. Word Search (#79) ⭐⭐⭐⭐
     
-87. #139 — Word Break
-    
-88. #91 — Decode Ways
-    
-89. #221 — Maximal Square
-    
-90. #300 — Longest Increasing Subsequence
-    
-91. #322 — Coin Change
-    
-92. #72 — Edit Distance
-    
-93. #44 — Wildcard Matching
-    
-94. #10 — Regular Expression Matching
-    
-95. #97 — Interleaving String
-    
-96. #514 — Freedom Trail
-    
-97. #494 — Target Sum
-    
+
+Learn ONE pattern → reuse everywhere.
 
 ---
 
-## **Phase 8: Greedy / Heap / Priority Queue**
+# 🟢 PHASE 6 — Graph (Modern Interview Favorite)
 
-98. #55 — Jump Game
+46. Number of Islands (#200) ⭐⭐⭐⭐⭐
     
-99. #45 — Jump Game II
+47. Clone Graph (#133)
     
-100. #763 — Partition Labels
+48. Course Schedule (#207) ⭐⭐⭐⭐⭐ _(Topological sort)_
     
-101. #881 — Boats to Save People
+49. Number of Provinces (#547)
     
-102. #435 — Non-overlapping Intervals
-    
-103. #452 — Minimum Arrows to Burst Balloons
-    
-104. #215 — Kth Largest Element
-    
-105. #23 — Merge k Sorted Lists
-    
-106. #295 — Find Median from Data Stream
-    
-107. #347 — Top K Frequent Elements
-    
-108. #973 — K Closest Points to Origin
-    
-109. #502 — IPO
-    
+
+Graphs are being asked more every year.
 
 ---
 
-## **Phase 9: Advanced / Hard Problems**
+# 🟢 PHASE 7 — Dynamic Programming
 
-110. #76 — Minimum Window Substring
+⭐ Only the HIGH ROI DP — no confidence killers.
+
+50. Climbing Stairs (#70)
     
-111. #42 — Trapping Rain Water
+51. House Robber (#198) ⭐⭐⭐⭐⭐
     
-112. #239 — Sliding Window Maximum
+52. Maximum Subarray (#53) ⭐⭐⭐
     
-113. #301 — Remove Invalid Parentheses
+53. Word Break (#139) ⭐⭐⭐⭐
     
-114. #460 — LFU Cache
+54. Longest Increasing Subsequence (#300) ⭐⭐⭐⭐
     
-115. #146 — LRU Cache
-    
-116. #212 — Word Search II
-    
-117. #895 — Maximum Frequency Stack
+55. Coin Change (#322) ⭐⭐⭐⭐⭐
     
 
----
-
-# ✅ **How to Use This List for Daily Practice**
-
-1. Do **1 problem per day**.
-    
-2. If you **cannot solve a problem**, mark it and **retry the next day** before moving forward.
-    
-3. Maintain your streak: even if you redo a previous problem, you’re still “on track.”
-    
-4. Stick to this **progressive order**, as it starts from easy → medium → hard, building confidence and patterns step by step.
-    
-5. Keep a **notebook of patterns**: two pointers, sliding window, DFS/BFS, DP, backtracking, heap, etc.
-    
+👉 If you can solve Coin Change → interviewer respects you.
 
 ---
 
-If you want, I can also make a **ready-to-use 200-day tracker sheet** where each day has the problem, difficulty, and a space to mark “Done / Retry,” so it’s super easy to follow your streak.
+# 🟢 PHASE 8 — Greedy + Heap
 
-Do you want me to make that tracker?
+56. Jump Game (#55) ⭐⭐⭐⭐
+    
+57. Partition Labels (#763)
+    
+58. Kth Largest Element (#215) ⭐⭐⭐⭐⭐
+    
+59. Top K Frequent Elements (#347) ⭐⭐⭐⭐⭐
+    
+60. K Closest Points (#973)
+    
+
+Heaps are very common in backend interviews.
+
+---
+
+# 🔥 OPTIONAL BOOST (Do ONLY if time allows)
+
+These elevate you above average candidates:
+
+61. Car Fleet (#853)
+    
+62. Generate Parentheses (#22)
+    
+63. Search a 2D Matrix (#74)
+    
+64. Pacific Atlantic Water Flow (#417)
+    
+65. Target Sum (#494)

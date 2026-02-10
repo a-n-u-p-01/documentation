@@ -1,18 +1,18 @@
 ## **Spring Boot Fundamentals**
 
-- [[Note/Introduction to Spring Boot]] ✅ High
+- [Introduction to Spring Boot](Note/Introduction%20to%20Spring%20Boot.md) ✅ High
     
-- Spring vs Spring Boot ✅ High
+- [Spring vs Spring Boot](Note/Spring%20vs%20Spring%20Boot.md) ✅ High
     
-- Spring Boot Starter Dependencies ✅ High
+- [Spring Boot Starter Dependencies](Note/Spring%20Boot%20Starter%20Dependencies.md) ✅ High
     
-- [[Note/Spring Boot Auto Configuration]] ✅ High
+- [Spring Boot Auto Configuration](Note/Spring%20Boot%20Auto%20Configuration.md) ✅ High
     
-- [[Note/Spring Boot Core Annotations]] ✅ High
+- [Spring Boot Core Annotations](Note/Spring%20Boot%20Core%20Annotations.md) ✅ High
     
-- Application Properties and YAML Configuration ✅ High
+- [Application Properties and YAML Configuration](Note/Application%20Properties%20and%20YAML%20Configuration.md) ✅ High
     
-- Spring Profiles and Environment Configuration ✅ High
+- [Spring Profiles and Environment Configuration](Note/Spring%20Profiles%20and%20Environment%20Configuration.md) ✅ High
     
 - Configuration Properties (Type-Safe Config) ✅ High
     
@@ -37,21 +37,21 @@
 
 ## **Dependency Injection & Core Concepts**
 
-- Dependency Injection (Constructor/Setter) ✅ High
+- [Dependency Injection (Constructor-Setter)](Note/Dependency%20Injection%20(Constructor-Setter).md) ✅ High
     
-- Spring Stereotype Annotations (@Component, @Service, @Repository) ✅ High
+- [Spring Stereotype Annotations (@Component, @Service, @Repository)](Note/Spring%20Stereotype%20Annotations%20(@Component,%20@Service,%20@Repository).md) ✅ High
     
-- Autowired, Qualifier, Primary ✅ High
+- [Autowired, Qualifier, Primary](Note/Autowired,%20Qualifier,%20Primary.md) ✅ High
     
-- Java-Based Bean Configuration (@Bean) ✅ High
+- [Java-Based Bean Configuration (@Bean)](Note/Java-Based%20Bean%20Configuration%20(@Bean).md) ✅ High
     
-- Spring Bean Scopes ⚙ Medium
+- [Spring Bean Scopes](Note/Spring%20Bean%20Scopes.md) ⚙ Medium
     
-- Spring Bean Lifecycle ⚙ Medium
+- [Spring Bean Lifecycle](Note/Spring%20Bean%20Lifecycle.md) ⚙ Medium
     
-- Lazy Initialization ⚙ Medium
+- [Lazy Initialization](Note/Lazy%20Initialization.md) ⚙ Medium
     
-- ApplicationContext vs BeanFactory ⚙ Medium
+- [ApplicationContext vs BeanFactory](Note/ApplicationContext%20vs%20BeanFactory.md) ⚙ Medium
     
 
 ---
@@ -75,15 +75,15 @@
 
 ## **Spring Boot Web (REST & MVC)**
 
-- Spring Web Starter Overview ✅ High
+- [Spring Web Starter Overview](Note/Spring%20Web%20Starter%20Overview.md) ✅ High
     
-- RESTful Web Services (CRUD, layered design) ✅ High
+- [RESTful Web Services (CRUD, layered design)](Note/RESTful%20Web%20Services%20(CRUD,%20layered%20design).md) ✅ High
     
-- Spring Controllers (@RestController) ✅ High
+- [Spring Controllers (@RestController)](Note/Spring%20Controllers%20(@RestController).md) ✅ High
     
-- Request Mappings (@GetMapping, @PostMapping...) ✅ High
+- [Request Mappings (@GetMapping, @PostMapping, etc.)](Note/Request%20Mappings%20(@GetMapping,%20@PostMapping,%20etc.).md) ✅ High
     
-- Request & Response Handling (ResponseEntity) ✅ High
+- [Request & Response Handling (ResponseEntity)](Note/Request%20&%20Response%20Handling%20(ResponseEntity).md) ✅ High
     
 - Path Variables and Request Parameters ✅ High
     
@@ -95,21 +95,21 @@
     
 - Form Validation (@Valid, constraints) ⚙ Medium
     
-- CORS Configuration ⚙ Medium
+- [CORS Configuration](Note/CORS%20Configuration.md) ⚙ Medium
     
-- File Upload/Download ⚙ Medium
+- [File Upload-Download](Note/File%20Upload-Download.md) ⚙ Medium
     
 - Serving Static & Template Content ⚙ Medium
     
-- Spring MVC Interceptors and Filters ⚙ Medium
+- [[Spring MVC Interceptors and Filters]] ⚙ Medium
     
-- Content Negotiation (JSON/XML/HTML) ⚙ Medium
+- [Content Negotiation (JSON-XML-HTML)](Note/Content%20Negotiation%20(JSON-XML-HTML).md) ⚙ Medium
     
-- **API Versioning (URI, headers)** ✅ High
+- [API Versioning (URI, headers)](../../../Note/API%20Versioning%20(URI,%20headers).md)✅ High
     
-- **Rate limiting for controllers (Bucket4j basics)** ⚙ Medium
+- [Rate limiting for controllers (Bucket4j basics)](Note/Rate%20limiting%20for%20controllers%20(Bucket4j%20basics).md) ⚙ Medium
     
-- **Request size/time limit handling** ⚙ Medium
+- [Request size-time limit handling](Note/Request%20size-time%20limit%20handling.md) ⚙ Medium
     
 - Internationalization (i18n) 🔴 Low
     
@@ -157,42 +157,38 @@
 
 ## **Spring Security**
 
-- Security Basics (Filters, Authentication, Authorization) ✅ High
+- [Security Basics (Authentication, Authorization, Filters)](Note/Security%20Basics%20(Authentication,%20Authorization,%20Filters).md)
     
-- Authentication vs Authorization Concepts ✅ High
+- [Authentication vs Authorization](Note/Authentication%20vs%20Authorization.md)
     
-- Security Filter Chain ⚙ Medium
+- [Security Filter Chain](Note/Security%20Filter%20Chain.md)
     
-- In-Memory Authentication ⚙ Medium
+- [Authentication Flow in Spring Security](Note/Authentication%20Flow%20in%20Spring%20Security.md)
     
-- Database Authentication (JDBC/JPA) ✅ High
+- [[Note/Database Authentication (Spring Security + JPA)]]
     
-- UserDetailsService Implementation ✅ High
+- [[Note/UserDetailsService]]
     
-- Custom AuthenticationProvider ⚙ Medium
+- [[Note/Password Encoding (BCrypt)]]
     
-- Custom Security Filters ⚙ Medium
+- [[JWT Authentication]]
     
-- JWT Authentication (Access/Refresh tokens) ✅ High
+- [[Access Token vs Refresh Token]]
     
-- OAuth2 Login & Social Login ⚙ Medium
+- [[Stateless Authentication]]
     
-- Password Encoding (BCryptPasswordEncoder) ✅ High
+- [[Bearer Token Authentication]]
     
-- CSRF and CORS Configuration ⚙ Medium
+- [[Role-Based Access Control (RBAC)]]
     
-- Method Level Security (@PreAuthorize) ⚙ Medium
+- [[Method Level Security (@PreAuthorize, @Secured)]]
     
-- Security Testing (@WithMockUser) ⚙ Medium
+- [[CSRF vs CORS]]
     
-- **Session management (stateless vs stateful)** ⚙ Medium
+- [[Security Hardening (HTTPS, Security Headers)]]
     
-- **Security hardening (HTTPS, HSTS, CSP, headers)** ✅ High
-    
-- **Audit logging & security events** ⚙ Medium
-    
-- **OAuth2 Resource Server (JWT validation, JWKS)** ⚙ Medium
-    
+- [[Basic Auth vs JWT vs OAuth2 — When to Use What]]
+- [[Note/IMPL]]
 
 ---
 

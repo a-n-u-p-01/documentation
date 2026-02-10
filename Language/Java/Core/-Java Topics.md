@@ -137,3 +137,14 @@
 - [Builder Design Pattern](Notes/Builder%20Design%20Pattern.md) ⚙ Medium
 - [Strategy and Observer Patterns](Notes/Strategy%20and%20Observer%20Patterns.md) ⚙ Medium
 - [Immutable Class Design in Java](Notes/Immutable%20Class%20Design%20in%20Java.md) ✅ High
+### JVM Internals & Performance
+
+- ClassLoader Types (Bootstrap, Platform, Application) ✅ High
+    
+- Class Loading Process (Loading, Linking, Initialization) ✅ High
+    
+- Metaspace vs PermGen ⚙ Medium
+    
+- Garbage Collectors Overview (Serial, Parallel, G1, ZGC) ⚙ Medium
+    
+- JVM Tuning Basics (`-Xms`, `-Xmx`, GC logs) ⚙ Medium
