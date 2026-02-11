@@ -101,7 +101,7 @@
     
 - Serving Static & Template Content ⚙ Medium
     
-- [[Spring MVC Interceptors and Filters]] ⚙ Medium
+- [[Note/Spring MVC Interceptors and Filters]] ⚙ Medium
     
 - [Content Negotiation (JSON-XML-HTML)](Note/Content%20Negotiation%20(JSON-XML-HTML).md) ⚙ Medium
     
@@ -118,39 +118,39 @@
 
 ## **Data Access & Persistence (Spring Data JPA)**
 
-- Spring Data JPA Overview ✅ High
+- [Spring Data JPA Overview](Note/Spring%20Data%20JPA%20Overview.md) ✅ High
     
-- Hibernate + JPA with Spring Boot ✅ High
+- [Hibernate + JPA with Spring Boot](Note/Hibernate%20+%20JPA%20with%20Spring%20Boot.md) ✅ High
     
-- Entity Mapping (@Entity, @Table) ✅ High
+- [Entity Mapping (@Entity, @Table)](Note/Entity%20Mapping%20(@Entity,%20@Table).md) ✅ High
     
-- Entity Relationships (OneToMany, ManyToMany..) ✅ High
+- [Entity Relationships (OneToMany, ManyToMany..)](Note/Entity%20Relationships%20(OneToMany,%20ManyToMany..).md) ✅ High
     
-- Entity Lifecycle Callbacks (@PrePersist…) ⚙ Medium
+- [Entity Lifecycle Callbacks (@PrePersist…)](Note/Entity%20Lifecycle%20Callbacks%20(@PrePersist…).md) ⚙ Medium
     
-- JPA Repositories (CrudRepository, JpaRepository) ✅ High
+- [JPA Repositories (CrudRepository, JpaRepository)](Note/JPA%20Repositories%20(CrudRepository,%20JpaRepository).md) ✅ High
     
-- Derived Query Methods (findBy...) ✅ High
+- [Derived Query Methods (findBy...)](Note/Derived%20Query%20Methods%20(findBy...).md) ✅ High
     
-- Custom Queries (JPQL, SQL) ✅ High
+- [Custom Queries (JPQL, SQL)](Note/Custom%20Queries%20(JPQL,%20SQL).md) ✅ High
     
-- Pagination & Sorting ⚙ Medium
+- [Pagination & Sorting](Note/Pagination%20&%20Sorting.md) ⚙ Medium
     
-- Transaction Management (@Transactional) ✅ High
+- [Transaction Management (@Transactional)](Note/Transaction%20Management%20(@Transactional).md) ✅ High
     
-- DTO Projection ⚙ Medium
+- [DTO Projection](Note/DTO%20Projection.md) ⚙ Medium
     
-- JPA Exception Handling ⚙ Medium
+- [JPA Exception Handling](Note/JPA%20Exception%20Handling.md) ⚙ Medium
     
-- Database Migration (Flyway/Liquibase) ✅ High
+- [Database Migration (Flyway-Liquibase)](Note/Database%20Migration%20(Flyway-Liquibase).md) ✅ High
     
-- Soft Delete (@SQLDelete) ⚙ Medium
+- [Soft Delete (@SQLDelete)](Note/Soft%20Delete%20(@SQLDelete).md) ⚙ Medium
     
-- Enum Mapping (STRING vs ORDINAL) ⚙ Medium
+- [Enum Mapping (STRING vs ORDINAL)](Note/Enum%20Mapping%20(STRING%20vs%20ORDINAL).md) ⚙ Medium
     
-- **Connection Pooling (HikariCP basics)** ✅ High
+- [Connection Pooling (HikariCP basics)](Note/Connection%20Pooling%20(HikariCP%20basics).md) ✅ High
     
-- **Indexing & query optimization basics** ⚙ Medium
+- [Indexing & query optimization basics](Note/Indexing%20&%20query%20optimization%20basics.md) ⚙ Medium
     
 
 ---
