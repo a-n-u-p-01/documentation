@@ -18,7 +18,7 @@
     
 - Externalized Configuration ⚙ Medium
     
-- Spring Boot DevTools ⚙ Medium
+- [[Note/Spring Boot DevTools]] ⚙ Medium
     
 - Spring Boot Actuator ⚙ Medium
     
@@ -105,7 +105,7 @@
     
 - [Content Negotiation (JSON-XML-HTML)](Note/Content%20Negotiation%20(JSON-XML-HTML).md) ⚙ Medium
     
-- [API Versioning (URI, headers)](../../../Note/API%20Versioning%20(URI,%20headers).md)✅ High
+- [API Versioning (URI, headers)](Note/API%20Versioning%20(URI,%20headers).md)✅ High
     
 - [Rate limiting for controllers (Bucket4j basics)](Note/Rate%20limiting%20for%20controllers%20(Bucket4j%20basics).md) ⚙ Medium
     
@@ -165,9 +165,9 @@
     
 - [Authentication Flow in Spring Security](Note/Authentication%20Flow%20in%20Spring%20Security.md)
     
-- [[Note/Database Authentication (Spring Security + JPA)]]
+- [Database Authentication (Spring Security + JPA)](Note/Database%20Authentication%20(Spring%20Security%20+%20JPA).md)
     
-- [[Note/UserDetailsService]]
+- [UserDetailsService](Note/UserDetailsService.md)
     
 - [[Note/Password Encoding (BCrypt)]]
     
@@ -221,11 +221,11 @@
 
 ## **Spring Boot with Cloud & DevOps**
 
-- Dockerizing Spring Boot Applications (Dockerfile, layered JAR) ✅ High
+- [[Note/Dockerizing Spring Boot Applications (Dockerfile, layered JAR)]] ✅ High
     
-- Jib Plugin (build images without Dockerfile) ⚙ Medium
+- [[Note/Jib Plugin (build images without Dockerfile)]] ⚙ Medium
     
-- CI/CD Pipelines (GitHub Actions, Jenkins) ✅ High
+- [[CI-CD Pipelines (GitHub Actions, Jenkins)]] ✅ High
     
 - Actuator for Monitoring (Health, Metrics) ✅ High
     
