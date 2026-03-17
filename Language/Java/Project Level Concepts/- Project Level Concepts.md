@@ -2,7 +2,7 @@
 
 - [[HTTP Basics (Request Response Headers Status Codes)]] ✅ High
     
-- [[REST Architecture Principles]] ✅ High
+- [[../../../Fundamentals/System Design/Note/REST Architecture Principles]] ✅ High
     
 - [[CRUD Operations over HTTP]] ✅ High
     

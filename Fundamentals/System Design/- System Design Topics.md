@@ -1,283 +1,259 @@
-## **System Design Fundamentals**
+# System Design Fundamentals
 
-- [[Note/What is System Design]]
+- [What is System Design](Note/What%20is%20System%20Design.md) ✅ High
     
-- [[Note/Functional vs Non-Functional Requirements]]
+- [Functional vs Non Functional Requirements](Note/Functional%20vs%20Non%20Functional%20Requirements.md) ✅ High
     
-- [[Note/Capacity Estimation]]
+- [Capacity Estimation Basics](Note/Capacity%20Estimation%20Basics.md) ✅ High
     
-- [[Note/Traffic Estimation]]
+- [Latency vs Throughput](Note/Latency%20vs%20Throughput.md) ✅ High
     
-- [[Note/Latency vs Throughput]]
+- [Scalability Concepts](Note/Scalability%20Concepts.md) ✅ High
     
-- [[Note/Scalability Basics]]
+- [Horizontal vs Vertical Scaling](Note/Horizontal%20vs%20Vertical%20Scaling.md) ✅ High
     
-- [[Note/CAP Theorem]]
+- [High Availability](Note/High%20Availability.md) ✅ High
     
-- [[Note/PACELC Theorem]]
+- [Fault Tolerance](Note/Fault%20Tolerance.md) ✅ High
     
-- [[Note/Single Point of Failure]]
+- [Trade-offs in Distributed Systems](Note/Trade-offs%20in%20Distributed%20Systems.md) ✅ High
     
-- [[Note/Redundancy and Replication]]
+- [CAP Theorem](Note/CAP%20Theorem.md) ✅ High
     
-- [[Note/Fault Tolerance]]
-    
-- [[Note/High Availability Architecture]]
+- [Consistency Models](Note/Consistency%20Models.md) ✅ High
     
 
 ---
 
-## **Networking & Communication**
+# Networking & Web Fundamentals
 
-- [[Note/HTTP HTTPS]]
+- [How the Internet Works](Note/How%20the%20Internet%20Works.md) ✅ High
     
-- [[Note/HTTP Methods]]
+- [DNS Resolution Process](Note/DNS%20Resolution%20Process.md) ✅ High
     
-- [[Note/REST vs gRPC vs GraphQL]]
+- [HTTP vs HTTPS](Note/HTTP%20vs%20HTTPS.md) ✅ High
     
-- [[Note/WebSockets]]
+- [REST Architecture Principles](Note/REST%20Architecture%20Principles.md) ✅ High
     
-- [[Note/API Gateway]]
+- [TCP vs UDP](Note/TCP%20vs%20UDP.md) ⚙ Medium
     
-- [[Note/Service to Service]]
+- [WebSockets](Note/WebSockets.md) ⚙ Medium
     
-
-(Removed OSI, TCP/UDP, Polling → rarely asked for backend interviews unless networking role.)
-
----
-
-## **Load Balancing**
-
-- [[Note/Load Balancing]]
+- [Reverse Proxy](Note/Reverse%20Proxy.md) ✅ High
     
-- [[Note/L4 vs L7]]
-    
-- [[Note/Load Balancing Algorithms]]
-    
-- [[Note/Reverse Proxy]]
-    
-
-(Removed deep NGINX — concept matters more than tool internals.)
-
----
-
-## **Caching (🔥 Critical Section)**
-
-- [[Note/Caching Fundamentals]]
-    
-- [[Note/Cache Aside]]
-    
-- [[Note/Write Through vs Write Back]]
-    
-- [[Note/TTL and Eviction]]
-    
-- [[Note/Redis]]
-    
-- [[Note/Distributed Caching]]
-    
-- [[Note/Cache Invalidation]]
-    
-
-👉 Do NOT skip this section.
-
-Many system design interviews secretly test caching knowledge.
-
----
-
-## **Databases**
-
-### Fundamentals
-
-- [[Note/SQL vs NoSQL]]
-    
-- [[Note/ACID]]
-    
-- [[Note/Database Indexing]]
-    
-- [[Note/Query Optimization]]
-    
-
-### Scaling
-
-- [[Note/Database Replication]]
-    
-- [[Note/Master-Slave]]
-    
-- [[Note/Sharding]]
-    
-- [[Note/Consistent Hashing]]
-    
-
-### Distributed Data
-
-- [[Note/Distributed Transactions]]
-    
-- [[Note/Saga Pattern]]
-    
-- [[Note/CQRS]]
-    
-
-(Removed BASE, Federation, Multi-leader — lower interview frequency.)
-
----
-
-## **Message Queues & Event Systems**
-
-🔥 Senior-signal topics.
-
-- [[Note/Why Message Queues]]
-    
-- [[Note/Pub-Sub]]
-    
-- [[Note/Queue vs Stream]]
-    
-- [[Note/Kafka]]
-    
-- [[Note/Exactly Once vs At Least Once]]
-    
-- [[Note/Idempotency]]
-    
-- [[Note/Dead Letter Queue]]
-    
-- [[Note/Event-Driven Architecture]]
+- [CDN Basics](Note/CDN%20Basics.md) ⚙ Medium
     
 
 ---
 
-## **Microservices**
+# Load Balancing & Traffic Management
 
-- [[Note/Monolith vs Microservices]]
+- [Why Load Balancer is Needed](Note/Why%20Load%20Balancer%20is%20Needed.md) ✅ High
     
-- [[Note/When Not Microservices]]
+- [L4 vs L7 Load Balancing](Note/L4%20vs%20L7%20Load%20Balancing.md) ✅ High
     
-- [[Note/Database per Service]]
+- [Load Balancing Algorithms](Note/Load%20Balancing%20Algorithms.md) ✅ High
     
-- [[Note/Service Discovery]]
+- [Health Checks](Note/Health%20Checks.md) ✅ High
     
-- [[Note/API Composition]]
+- [Sticky Sessions](Note/Sticky%20Sessions.md) ⚙ Medium
     
-- [[Note/Strangler Fig]]
-    
-
-(Removed BFF — situational pattern.)
-
----
-
-## **Reliability & Resilience (🔥 Interview Gold)**
-
-- [[Note/Retry Strategies]]
-    
-- [[Note/Circuit Breaker]]
-    
-- [[Note/Bulkhead]]
-    
-- [[Note/Timeouts]]
-    
-- [[Note/Rate Limiting]]
-    
-- [[Note/Graceful Degradation]]
-    
-
-(Removed throttling — overlaps with rate limiting.)
-
----
-
-## **Security**
-
-- [[Note/Auth vs AuthZ]]
-    
-- [[Note/JWT]]
-    
-- [[Note/OAuth2]]
-    
-- [[Note/API Security]]
-    
-- [[Note/Secrets Management]]
-    
-
-(Removed Zero Trust — advanced architecture topic.)
-
----
-
-## **Observability (Most Engineers Skip — Big Advantage)**
-
-- [[Note/Logging Strategy]]
-    
-- [[Note/Metrics]]
-    
-- [[Note/Distributed Tracing]]
-    
-- [[Note/SLI SLO SLA]]
-    
-
-(Alerting is operational — not core for interviews.)
-
----
-
-## **Storage Systems**
-
-- [[Note/Object Storage]]
-    
-- [[Note/CDN]]
-    
-- [[Note/Hot vs Cold]]
-    
-
-(Removed Blob — overlaps with object storage concepts.)
-
----
-
-## **Search**
-
-- [[Note/Search Engines]]
-    
-- [[Note/Inverted Index]]
-    
-- [[Note/Elasticsearch]]
+- [Global Traffic Routing](Note/Global%20Traffic%20Routing.md) ⚙ Medium
     
 
 ---
 
-## 🔥 **MOST IMPORTANT — Real System Designs**
+# Caching
 
-👉 Interviewers care MORE about these than theory.
-
-- [[Note/URL Shortener]]
+- [[Note/Why Caching is Important]] ✅ High
     
-- [[Note/Design WhatsApp]]
+- [[Note/Cache Aside Pattern]] ✅ High
     
-- [[Note/Design Twitter]]
+- [[Note/Write Through and Write Back]] ⚙ Medium
     
-- [[Note/Design Instagram]]
+- [[Note/Cache Invalidation Strategies]] ✅ High
     
-- [[Note/Design Notification System]]
+- [[Note/Cache Eviction Policies]] ⚙ Medium
     
-- [[Note/Design Rate Limiter]]
+- [[Note/Distributed Cache]] ✅ High
     
-- [[Note/Design Distributed Cache]]
+- [[Note/Redis Basics]] ✅ High
     
-
-(Removed Uber & YouTube — lower probability for early-career interviews.)
 
 ---
 
-## ❌ Intentionally Removed (For Now)
+# Database Design & Scaling
 
-Learn later — NOT needed to become top 10% quickly:
-
-- Vector Clocks
+- [[Note/SQL vs NoSQL]] ✅ High
     
-- CRDTs
+- [[Note/Database Indexing]] ✅ High
     
-- Gossip Protocol
+- [[ACID Properties]] ✅ High
     
-- Leader Election
+- [[Database Transactions]] ✅ High
     
-- Multi-Leader
+- [[Data Modeling for Large Systems]] ✅ High
     
-- Federation
+- [[Denormalization Strategy]] ✅ High
     
-
-👉 These are **staff-level topics**, not 1–2 year engineer topics.
+- [[Database Replication]] ✅ High
+    
+- [[Sharding Strategy]] ✅ High
+    
+- [[Read Write Splitting]] ⚙ Medium
+    
+- [[Database Partitioning]] ✅ High
+    
+- [[Two Phase Commit]] ⚙ Medium
+    
 
 ---
+
+#  Microservices Architecture
+
+- [[Monolith vs Microservices]] ✅ High
+    
+- [[API Gateway Pattern]] ✅ High
+    
+- [[Service Discovery]] ✅ High
+    
+- [[Centralized Configuration]] ⚙ Medium
+    
+- [[Circuit Breaker Pattern]] ✅ High
+    
+- [[Bulkhead Pattern]] ⚙ Medium
+    
+- [[Sidecar Pattern]] 🔴 Low
+    
+- [[Distributed Tracing]] ⚙ Medium
+    
+
+---
+
+#  Messaging & Event Driven Systems
+
+- [[Message Queue Basics]] ✅ High
+    
+- [[Publish Subscribe Model]] ✅ High
+    
+- [[Event Driven Architecture]] ✅ High
+    
+- [[Kafka Fundamentals]] ✅ High
+    
+- [[At Least Once vs Exactly Once Delivery]] ✅ High
+    
+- [[Dead Letter Queue]] ⚙ Medium
+    
+- [[Idempotency in Distributed Systems]] ✅ High
+    
+
+---
+
+#  Reliability & Distributed Systems
+
+- [[Handling Partial Failures]] ✅ High
+    
+- [[Timeouts in Distributed Systems]] ✅ High
+    
+- [[Retries and Backoff Strategy]] ✅ High
+    
+- [[Graceful Degradation]] ✅ High
+    
+- [[Distributed Locks]] ✅ High
+    
+- [[Leader Election]] ⚙ Medium
+    
+- [[Consensus Algorithms]] ⚙ Medium
+    
+- [[Saga Pattern]] ✅ High
+    
+
+---
+
+#  Security & Rate Limiting
+
+- [[Authentication vs Authorization]] ✅ High
+    
+- [[JWT Authentication]] ✅ High
+    
+- [[OAuth2 Basics]] ⚙ Medium
+    
+- [[Rate Limiting Concepts]] ✅ High
+    
+- [[Token Bucket Algorithm]] ✅ High
+    
+- [[API Security Best Practices]] ✅ High
+    
+
+---
+
+#  Observability & Monitoring
+
+- [[Logging Strategy]] ✅ High
+    
+- [[Metrics Collection]] ✅ High
+    
+- [[Monitoring Systems]] ⚙ Medium
+    
+- [[Alerting Systems]] ⚙ Medium
+    
+- [[Distributed Tracing Tools]] ⚙ Medium
+    
+
+---
+
+#  DevOps & Deployment
+
+- [[Docker Fundamentals]] ✅ High
+    
+- [[Kubernetes Architecture]] ✅ High
+    
+- [[Pods Services and Ingress]] ✅ High
+    
+- [[CI CD Basics]] ⚙ Medium
+    
+- [[Blue Green Deployment]] ⚙ Medium
+    
+- [[Canary Deployment]] ⚙ Medium
+    
+
+---
+
+#  Performance & Optimization
+
+- [[Capacity Planning]] ✅ High
+    
+- [[Database Query Optimization]] ✅ High
+    
+- [[Connection Pooling]] ✅ High
+    
+- [[Thread Pool Tuning]] ⚙ Medium
+    
+- [[Load Testing Basics]] ⚙ Medium
+    
+- [[Bottleneck Identification]] ⚙ Medium
+    
+
+---
+
+# System Design Case Studies (Interview Level)
+
+- [[Design URL Shortener]] ✅ High
+    
+- [[Design Chat Application]] ✅ High
+    
+- [[Design Payment System]] ✅ High
+    
+- [[Design Notification System]] ✅ High
+    
+- [[Design Instagram]] ⚙ Medium
+    
+- [[Design Uber]] ⚙ Medium
+    
+- [[Design Netflix]] ⚙ Medium
+    
+- [[Design Search Engine]] ⚙ Medium
+    
+
+---
+

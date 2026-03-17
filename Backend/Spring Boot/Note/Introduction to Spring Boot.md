@@ -349,5 +349,3 @@ Next logical notes:
 4. **Spring Boot Core Annotations**
     
 
-If you want, say:  
-**“next → Spring vs Spring Boot”**

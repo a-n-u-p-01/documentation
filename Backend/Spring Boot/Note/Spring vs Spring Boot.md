@@ -175,7 +175,6 @@ Spring Boot was designed to:
 - Beans must be explicitly declared
     
 - Developers manage infrastructure beans
-    
 
 #### **Spring Boot**
 
@@ -218,7 +217,7 @@ Auto-configuration activates only when:
 
 - Required classes are present
     
-- No custom bean overrides exist
+- No custom bean overrides exist1
     
 - Relevant properties are defined
     

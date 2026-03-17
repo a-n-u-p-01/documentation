@@ -85,7 +85,7 @@
 
 25. Binary Search (#704)
     
-26. Search in Rotated Sorted Array (#33) ⭐⭐⭐
+26. Search in Rotated Sorted Array (#33) ⭐⭐⭐x
     
 27. Find Minimum in Rotated Sorted Array (#153)
     

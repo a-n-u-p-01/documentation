@@ -169,7 +169,7 @@
     
 - [UserDetailsService](Note/UserDetailsService.md)
     
-- [[Note/Password Encoding (BCrypt)]]
+- [Password Encoding (BCrypt)](Note/Password%20Encoding%20(BCrypt).md)
     
 - [[JWT Authentication]]
     
@@ -188,6 +188,7 @@
 - [[Security Hardening (HTTPS, Security Headers)]]
     
 - [[Basic Auth vs JWT vs OAuth2 — When to Use What]]
+    
 - [[Note/IMPL]]
 
 ---
@@ -221,23 +222,23 @@
 
 ## **Spring Boot with Cloud & DevOps**
 
-- [[Note/Dockerizing Spring Boot Applications (Dockerfile, layered JAR)]] ✅ High
+- [Dockerizing Spring Boot Applications (Dockerfile, layered JAR)](Note/Dockerizing%20Spring%20Boot%20Applications%20(Dockerfile,%20layered%20JAR).md) ✅ High
     
-- [[Note/Jib Plugin (build images without Dockerfile)]] ⚙ Medium
+- [Jib Plugin (build images without Dockerfile)](Note/Jib%20Plugin%20(build%20images%20without%20Dockerfile).md) ⚙ Medium
     
-- [[CI-CD Pipelines (GitHub Actions, Jenkins)]] ✅ High
+- [CI-CD Pipelines (GitHub Actions, Jenkins)](Note/CI-CD%20Pipelines%20(GitHub%20Actions,%20Jenkins).md) ✅ High
     
-- Actuator for Monitoring (Health, Metrics) ✅ High
+- [Actuator for Monitoring (Health, Metrics)](Note/Actuator%20for%20Monitoring%20(Health,%20Metrics).md) ✅ High
     
-- Spring Boot Admin ⚙ Medium
+- [Spring Boot Admin](Note/Spring%20Boot%20Admin.md) ⚙ Medium
     
-- Kubernetes Basics (Deployment, Service, ConfigMap, Secrets) ⚙ Medium
+- [Kubernetes Basics (Deployment, Service, ConfigMap, Secrets)](Note/Kubernetes%20Basics%20(Deployment,%20Service,%20ConfigMap,%20Secrets).md) ⚙ Medium
     
-- **Readiness/Liveness Probes** ✅ High
+- [Readiness-Liveness Probes](Note/Readiness-Liveness%20Probes.md) ✅ High
     
-- **Graceful Shutdown** ⚙ Medium
+- [Graceful Shutdown](Note/Graceful%20Shutdown.md) ⚙ Medium
     
-- Centralized Logging (ELK/EFK) ⚙ Medium
+- [Centralized Logging (ELK-EFK)](Note/Centralized%20Logging%20(ELK-EFK).md) ⚙ Medium
     
 - Monitoring with Prometheus & Grafana ⚙ Medium
     
@@ -246,25 +247,25 @@
 
 ## **Spring Cloud (Microservices)**
 
-- Spring Cloud Basics (Config, Discovery) ✅ High
+- [Spring Cloud Basics (Config, Discovery)](Note/Spring%20Cloud%20Basics%20(Config,%20Discovery).md) ✅ High
     
-- Spring Cloud Config Server (central config) ✅ High
+- [Spring Cloud Config Server (central config)](Note/Spring%20Cloud%20Config%20Server%20(central%20config).md) ✅ High
     
-- Service Discovery (Eureka/Consul) ⚙ Medium
+- [Service Discovery (Eureka-Consul)](Note/Service%20Discovery%20(Eureka-Consul).md) ⚙ Medium
     
-- Spring Cloud Gateway (Routing/Filters) ✅ High
+- [Spring Cloud Gateway (Routing-Filters)](Note/Spring%20Cloud%20Gateway%20(Routing-Filters).md) ✅ High
     
-- Feign Client (declarative calls) ⚙ Medium
+- [Feign Client (declarative calls)](Note/Feign%20Client%20(declarative%20calls).md) ⚙ Medium
     
-- Circuit Breaker (Resilience4j) ⚙ Medium
+- [Circuit Breaker (Resilience4j)](Note/Circuit%20Breaker%20(Resilience4j).md) ⚙ Medium
     
-- Spring Cloud LoadBalancer ⚙ Medium
+- [[Note/Spring Cloud LoadBalancer]] ⚙ Medium
     
-- API Rate Limiting (Gateway) ⚙ Medium
+- [[API Rate Limiting (Gateway)]] ⚙ Medium
     
-- Distributed Tracing (Micrometer Tracing) ⚙ Medium
+- [[../../Fundamentals/System Design/Note/Distributed Tracing (Micrometer Tracing)]] ⚙ Medium
     
-- **Correlation IDs for distributed logs (MDC)** ✅ High
+- [[Correlation IDs for distributed logs (MDC)]] ✅ High
     
 
 ---
